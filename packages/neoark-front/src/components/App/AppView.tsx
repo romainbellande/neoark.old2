@@ -1,26 +1,26 @@
 import React from 'react';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import { Switch, Route, BrowserRouter as Router, RouteProps } from 'react-router-dom';
 
 import './App.css';
-import logo from 'src/logo.svg';
 import theme from 'src/theme';
 
-const App: React.FC = () => {
+interface Props {
+  routes: RouteProps[];
+}
+
+const App: React.FC<Props> = ({ routes }) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router>
+        <Switch>
+          {routes.map((route, index) => (
+            <Route key={`route-${index}`} {...route} />
+          ))}
+        </Switch>
+      </Router>
     </ThemeProvider>
   );
 };
