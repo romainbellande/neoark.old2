@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots PlanetOverview Default 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiBox-root MuiBox-root-765"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-766"
+      >
+        <h3
+          className="MuiTypography-root MuiTypography-h3"
+        >
+          Overview - 
+          Terra
+        </h3>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-797 makeStyles-content-761"
+      >
+        <div>
+          <div
+            className="MuiPaper-root makeStyles-paper-798 MuiPaper-elevation1 MuiPaper-rounded"
+          >
+            <p
+              className="MuiTypography-root makeStyles-title-799 MuiTypography-body1"
+            >
+              Summary
+            </p>
+            <div
+              className="MuiPaper-root MuiList-root makeStyles-list-800 MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <li
+                className="MuiListItem-root makeStyles-listItem-803 MuiListItem-gutters"
+                disabled={false}
+              >
+                <div
+                  className="MuiListItemText-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                  >
+                    <div
+                      className="MuiBox-root MuiBox-root-853"
+                    >
+                      <span
+                        className="makeStyles-label-801"
+                      >
+                        Diameter
+                        :
+                      </span>
+                      <span
+                        className="makeStyles-value-802"
+                      >
+                        17.612km (12/235)
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </li>
+              <li
+                className="MuiListItem-root makeStyles-listItem-803 MuiListItem-gutters"
+                disabled={false}
+              >
+                <div
+                  className="MuiListItemText-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                  >
+                    <div
+                      className="MuiBox-root MuiBox-root-854"
+                    >
+                      <span
+                        className="makeStyles-label-801"
+                      >
+                        Temperature
+                        :
+                      </span>
+                      <span
+                        className="makeStyles-value-802"
+                      >
+                        12 °C to 35 °C
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </li>
+              <li
+                className="MuiListItem-root makeStyles-listItem-803 MuiListItem-gutters"
+                disabled={false}
+              >
+                <div
+                  className="MuiListItemText-root"
+                >
+                  <span
+                    className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                  >
+                    <div
+                      className="MuiBox-root MuiBox-root-855"
+                    >
+                      <span
+                        className="makeStyles-label-801"
+                      >
+                        Coordinates
+                        :
+                      </span>
+                      <span
+                        className="makeStyles-value-802"
+                      >
+                        [4:13:3]
+                      </span>
+                    </div>
+                  </span>
+                </div>
+              </li>
+            </div>
+          </div>
+        </div>
+        <div
+          className="MuiPaper-root makeStyles-queuesContainer-763 MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <h4
+            className="MuiTypography-root MuiTypography-h4"
+          >
+            Queues
+          </h4>
+          <div
+            className="MuiBox-root MuiBox-root-856 makeStyles-queues-762"
+          >
+            <div
+              className="MuiPaper-root makeStyles-paper-857 MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <p
+                className="MuiTypography-root makeStyles-queueTitle-858 MuiTypography-body1 MuiTypography-alignCenter"
+              >
+                Facilities
+              </p>
+              <ul
+                className="MuiList-root MuiList-padding"
+              >
+                <li
+                  className="MuiListItem-root MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemText-root makeStyles-itemText-859"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-866"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-itemTitle-861 MuiTypography-body1"
+                        >
+                          Space shuttle site
+                           (
+                          10
+                          )
+                        </p>
+                        <div
+                          className="MuiBox-root MuiBox-root-867 makeStyles-itemContent-860"
+                        >
+                          <div
+                            className="makeStyles-itemRow-862"
+                          >
+                            <div
+                              className="MuiBox-root MuiBox-root-868"
+                            >
+                              <span>
+                                remaining: 
+                              </span>
+                              <span>
+                                less than 5 seconds
+                              </span>
+                            </div>
+                            <div
+                              className="makeStyles-itemProgress-864"
+                            >
+                              <div
+                                aria-valuenow={0}
+                                className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
+                                role="progressbar"
+                              >
+                                <div
+                                  className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+                                  style={
+                                    Object {
+                                      "transform": "translateX(-100%)",
+                                    }
+                                  }
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+                </li>
+                <hr
+                  className="MuiDivider-root makeStyles-divider-863"
+                />
+                <li
+                  className="MuiListItem-root MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemText-root makeStyles-itemText-859"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-896"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-itemTitle-861 MuiTypography-body1"
+                        >
+                          Metal mine
+                           (
+                          25
+                          )
+                        </p>
+                      </div>
+                    </span>
+                  </div>
+                </li>
+                <hr
+                  className="MuiDivider-root makeStyles-divider-863"
+                />
+                <li
+                  className="MuiListItem-root MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemText-root makeStyles-itemText-859"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-897"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-itemTitle-861 MuiTypography-body1"
+                        >
+                          Refinery
+                           (
+                          12
+                          )
+                        </p>
+                      </div>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="MuiPaper-root makeStyles-paper-857 MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <p
+                className="MuiTypography-root makeStyles-queueTitle-858 MuiTypography-body1 MuiTypography-alignCenter"
+              >
+                Research
+              </p>
+              <ul
+                className="MuiList-root MuiList-padding"
+              >
+                <li
+                  className="MuiListItem-root MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemText-root makeStyles-itemText-859"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                    >
+                      <div
+                        className="MuiBox-root MuiBox-root-898"
+                      >
+                        <p
+                          className="MuiTypography-root makeStyles-itemTitle-861 MuiTypography-body1"
+                        >
+                          Nuclear power
+                           (
+                          10
+                          )
+                        </p>
+                        <div
+                          className="MuiBox-root MuiBox-root-899 makeStyles-itemContent-860"
+                        >
+                          <div
+                            className="makeStyles-itemRow-862"
+                          >
+                            <div
+                              className="MuiBox-root MuiBox-root-900"
+                            >
+                              <span>
+                                remaining: 
+                              </span>
+                              <span>
+                                less than 5 seconds
+                              </span>
+                            </div>
+                            <div
+                              className="makeStyles-itemProgress-864"
+                            >
+                              <div
+                                aria-valuenow={0}
+                                className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
+                                role="progressbar"
+                              >
+                                <div
+                                  className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+                                  style={
+                                    Object {
+                                      "transform": "translateX(-100%)",
+                                    }
+                                  }
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div
+              className="MuiPaper-root makeStyles-paper-857 MuiPaper-elevation1 MuiPaper-rounded"
+            >
+              <p
+                className="MuiTypography-root makeStyles-queueTitle-858 MuiTypography-body1 MuiTypography-alignCenter"
+              >
+                Shipyard
+              </p>
+              <div
+                className="makeStyles-emptyQueue-865"
+              >
+                Queue empty.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;

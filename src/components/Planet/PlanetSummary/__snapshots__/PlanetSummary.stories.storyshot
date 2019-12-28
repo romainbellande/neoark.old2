@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots PlanetSummary Default 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div>
+      <div
+        className="MuiPaper-root makeStyles-paper-1089 MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <p
+          className="MuiTypography-root makeStyles-title-1090 MuiTypography-body1"
+        >
+          Summary
+        </p>
+        <div
+          className="MuiPaper-root MuiList-root makeStyles-list-1091 MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
+        >
+          <li
+            className="MuiListItem-root makeStyles-listItem-1094 MuiListItem-gutters"
+            disabled={false}
+          >
+            <div
+              className="MuiListItemText-root"
+            >
+              <span
+                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-1175"
+                >
+                  <span
+                    className="makeStyles-label-1092"
+                  >
+                    Diameter
+                    :
+                  </span>
+                  <span
+                    className="makeStyles-value-1093"
+                  >
+                    17.612km (12/235)
+                  </span>
+                </div>
+              </span>
+            </div>
+          </li>
+          <li
+            className="MuiListItem-root makeStyles-listItem-1094 MuiListItem-gutters"
+            disabled={false}
+          >
+            <div
+              className="MuiListItemText-root"
+            >
+              <span
+                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-1176"
+                >
+                  <span
+                    className="makeStyles-label-1092"
+                  >
+                    Temperature
+                    :
+                  </span>
+                  <span
+                    className="makeStyles-value-1093"
+                  >
+                    12 °C to 35 °C
+                  </span>
+                </div>
+              </span>
+            </div>
+          </li>
+          <li
+            className="MuiListItem-root makeStyles-listItem-1094 MuiListItem-gutters"
+            disabled={false}
+          >
+            <div
+              className="MuiListItemText-root"
+            >
+              <span
+                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-1177"
+                >
+                  <span
+                    className="makeStyles-label-1092"
+                  >
+                    Coordinates
+                    :
+                  </span>
+                  <span
+                    className="makeStyles-value-1093"
+                  >
+                    [4:13:3]
+                  </span>
+                </div>
+              </span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;
