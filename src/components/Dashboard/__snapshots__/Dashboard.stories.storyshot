@@ -1,0 +1,529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Dashboard Default 1`] = `
+Array [
+  <div
+    id="story-root"
+    style={Object {}}
+  >
+    <div
+      className="makeStyles-root-1"
+    >
+      <nav
+        className="makeStyles-drawer-2"
+      >
+        <div
+          className="PrivateHiddenCss-xsDown-9"
+        >
+          <div
+            className="MuiDrawer-root MuiDrawer-docked"
+          >
+            <div
+              className="MuiPaper-root MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft MuiPaper-elevation0"
+              style={
+                Object {
+                  "width": 256,
+                }
+              }
+            >
+              <ul
+                className="MuiList-root"
+              >
+                <li
+                  className="MuiListItem-root makeStyles-firebase-26 makeStyles-item-24 makeStyles-itemCategory-25 MuiListItem-gutters"
+                  disabled={false}
+                >
+                  Voard
+                </li>
+                <li
+                  className="MuiListItem-root makeStyles-item-24 makeStyles-itemCategory-25 MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemIcon-root makeStyles-itemIcon-29"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="MuiListItemText-root"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-28 MuiTypography-body1"
+                    >
+                      Overview
+                    </span>
+                  </div>
+                </li>
+                <li
+                  className="MuiListItem-root makeStyles-categoryHeader-22 MuiListItem-gutters"
+                  disabled={false}
+                >
+                  <div
+                    className="MuiListItemText-root"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-23 MuiTypography-body1"
+                    >
+                      Main
+                    </span>
+                  </div>
+                </li>
+                <div
+                  aria-disabled={false}
+                  className="MuiButtonBase-root MuiListItem-root makeStyles-item-24 MuiListItem-gutters MuiListItem-button"
+                  onBlur={[Function]}
+                  onDragLeave={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onKeyUp={[Function]}
+                  onMouseDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseUp={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <div
+                    className="MuiListItemIcon-root makeStyles-itemIcon-29"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="MuiSvgIcon-root"
+                      focusable="false"
+                      role="presentation"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    className="MuiListItemText-root"
+                  >
+                    <span
+                      className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-28 MuiTypography-body1"
+                    >
+                      Home
+                    </span>
+                  </div>
+                  <span
+                    className="MuiTouchRipple-root"
+                  />
+                </div>
+                <hr
+                  className="MuiDivider-root makeStyles-divider-30"
+                />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div
+        className="makeStyles-appContent-3"
+      >
+        <header
+          className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-142 MuiAppBar-colorPrimary MuiPaper-elevation0"
+        >
+          <div
+            className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+          >
+            <div
+              className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center"
+            >
+              <div
+                className="MuiGrid-root MuiGrid-item"
+              />
+              <div
+                className="MuiGrid-root makeStyles-endSpacer-149 MuiGrid-item"
+              />
+            </div>
+          </div>
+        </header>
+        <div
+          className="makeStyles-wrapper-5"
+        >
+          <main
+            className="makeStyles-mainContent-4"
+          >
+            <div>
+              Hello
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": "2px",
+          "color": "black",
+          "fontFamily": "Helvetica Neue, Helvetica, Segoe UI, Arial, freesans, sans-serif",
+          "fontSize": "15px",
+          "fontWeight": 300,
+          "lineHeight": 1.45,
+          "padding": "20px 40px 40px",
+        }
+      }
+    >
+      
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Story Source
+      </h1>
+      <div
+        className="css-1fhpnuv"
+      >
+        <div
+          className="css-1si67pu"
+          data-simplebar={true}
+        >
+          <div
+            className="simplebar-wrapper"
+          >
+            <div
+              className="simplebar-height-auto-observer-wrapper"
+            >
+              <div
+                className="simplebar-height-auto-observer"
+              />
+            </div>
+            <div
+              className="simplebar-mask"
+            >
+              <div
+                className="simplebar-offset"
+              >
+                <div
+                  className="simplebar-content-wrapper"
+                >
+                  <div
+                    className="simplebar-content"
+                  >
+                    <pre
+                      className="hljs css-4zr3vl"
+                    >
+                      <code
+                        className="css-1maezg8"
+                      >
+                        <span
+                          className="token operator"
+                        >
+                          &lt;
+                        </span>
+                        DashboardContainer
+  routes
+                        <span
+                          className="token operator"
+                        >
+                          =
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          {
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          [
+                        </span>
+                        
+    
+                        <span
+                          className="token punctuation"
+                        >
+                          {
+                        </span>
+                        
+      children
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token punctuation"
+                        >
+                          [
+                        </span>
+                        
+        
+                        <span
+                          className="token punctuation"
+                        >
+                          {
+                        </span>
+                        
+          
+                        <span
+                          className="token function-variable function"
+                        >
+                          component
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token keyword"
+                        >
+                          function
+                        </span>
+                         
+                        <span
+                          className="token function"
+                        >
+                          noRefCheck
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          (
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          )
+                        </span>
+                         
+                        <span
+                          className="token punctuation"
+                        >
+                          {
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          }
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          ,
+                        </span>
+                        
+          icon
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token tag"
+                        >
+                          <span
+                            className="token tag"
+                          >
+                            <span
+                              className="token punctuation"
+                            >
+                              &lt;
+                            </span>
+                            <span
+                              className="token class-name"
+                            >
+                              PeopleIcon
+                            </span>
+                          </span>
+                           
+                          <span
+                            className="token punctuation"
+                          >
+                            /&gt;
+                          </span>
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          ,
+                        </span>
+                        
+          id
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token string"
+                        >
+                          'Home'
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          ,
+                        </span>
+                        
+          path
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token string"
+                        >
+                          '/'
+                        </span>
+                        
+        
+                        <span
+                          className="token punctuation"
+                        >
+                          }
+                        </span>
+                        
+      
+                        <span
+                          className="token punctuation"
+                        >
+                          ]
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          ,
+                        </span>
+                        
+      id
+                        <span
+                          className="token punctuation"
+                        >
+                          :
+                        </span>
+                         
+                        <span
+                          className="token string"
+                        >
+                          'Main'
+                        </span>
+                        
+    
+                        <span
+                          className="token punctuation"
+                        >
+                          }
+                        </span>
+                        
+  
+                        <span
+                          className="token punctuation"
+                        >
+                          ]
+                        </span>
+                        <span
+                          className="token punctuation"
+                        >
+                          }
+                        </span>
+                        
+ 
+                        <span
+                          className="token operator"
+                        >
+                          /
+                        </span>
+                        <span
+                          className="token operator"
+                        >
+                          &gt;
+                        </span>
+                      </code>
+                    </pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="simplebar-placeholder"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-horizontal"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+          <div
+            className="simplebar-track simplebar-vertical"
+          >
+            <div
+              className="simplebar-scrollbar"
+            />
+          </div>
+        </div>
+        <div
+          className="css-11xgcgt"
+        >
+          <button
+            className="css-1imo1gr"
+            onClick={[Function]}
+          >
+            Copy
+          </button>
+        </div>
+      </div>
+      <h1
+        style={
+          Object {
+            "borderBottom": "1px solid #EEE",
+            "fontSize": "25px",
+            "margin": "20px 0 0 0",
+            "padding": "0 0 5px 0",
+          }
+        }
+      >
+        Prop Types
+      </h1>
+      <div>
+        <h3
+          style={
+            Object {
+              "margin": "20px 0 0 0",
+            }
+          }
+        >
+          "
+          DashboardContainer
+          " Component
+        </h3>
+        <small>
+          No propTypes defined!
+        </small>
+      </div>
+    </div>
+  </div>,
+]
+`;

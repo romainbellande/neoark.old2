@@ -1,10 +1,12 @@
-import { addDecorator } from '@storybook/react';
+import { addDecorator, configure } from '@storybook/react';
 import React from 'react';
 import { withInfo } from '@storybook/addon-info';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
+import StoryRouter from 'storybook-react-router';
+import requireContext from 'require-context.macro';
 
-import '!style-loader!css-loader!sass-loader!./styles.scss';
+import './styles.css';
 import theme from 'src/theme';
 
 const withMUI = storyFn => (
@@ -22,3 +24,9 @@ addDecorator(
 );
 
 addDecorator(withMUI);
+
+addDecorator(StoryRouter());
+
+const req = requireContext('../src', true, /\.stories\.tsx?$/);
+
+configure(req, module);
