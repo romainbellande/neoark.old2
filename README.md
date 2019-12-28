@@ -1,4 +1,4 @@
-![Build Status](https://github.com/romainbellande/neoark/workflows/.github/workflows/nodejs.yml/badge.svg?branch=master)[![Coverage Status](https://coveralls.io/repos/github/romainbellande/neoark/badge.svg?branch=feat/storybook)](https://coveralls.io/github/romainbellande/neoark?branch=master)
+![Build Status](https://github.com/romainbellande/neoark/workflows/Node%20CI/badge.svg?branch=master)[![Coverage Status](https://coveralls.io/repos/github/romainbellande/neoark/badge.svg?branch=feat/storybook)](https://coveralls.io/github/romainbellande/neoark?branch=master)
 
 # Neoark
 
