@@ -18,7 +18,7 @@ const withMUI = storyFn => (
 
 addDecorator(
   withInfo({
-    inline: true,
+    inline: false,
     header: false,
   }),
 );

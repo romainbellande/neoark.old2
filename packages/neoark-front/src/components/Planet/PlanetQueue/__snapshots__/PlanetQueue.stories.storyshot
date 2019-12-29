@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots PlanetQueue Default 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root makeStyles-paper-901 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <p
+        className="MuiTypography-root makeStyles-queueTitle-902 MuiTypography-body1 MuiTypography-alignCenter"
+      >
+        Facilities
+      </p>
+      <ul
+        className="MuiList-root MuiList-padding"
+      >
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <div
+            className="MuiListItemText-root makeStyles-itemText-903"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+            >
+              <div
+                className="MuiBox-root MuiBox-root-990"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-itemTitle-905 MuiTypography-body1"
+                >
+                  Space shuttle site
+                   (
+                  10
+                  )
+                </p>
+                <div
+                  className="MuiBox-root MuiBox-root-991 makeStyles-itemContent-904"
+                >
+                  <div
+                    className="makeStyles-itemRow-906"
+                  >
+                    <div
+                      className="MuiBox-root MuiBox-root-992"
+                    >
+                      <span>
+                        remaining: 
+                      </span>
+                      <span>
+                        less than 5 seconds
+                      </span>
+                    </div>
+                    <div
+                      className="makeStyles-itemProgress-908"
+                    >
+                      <div
+                        aria-valuenow={0}
+                        className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
+                        role="progressbar"
+                      >
+                        <div
+                          className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+                          style={
+                            Object {
+                              "transform": "translateX(-100%)",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </span>
+          </div>
+        </li>
+        <hr
+          className="MuiDivider-root makeStyles-divider-907"
+        />
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <div
+            className="MuiListItemText-root makeStyles-itemText-903"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+            >
+              <div
+                className="MuiBox-root MuiBox-root-1020"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-itemTitle-905 MuiTypography-body1"
+                >
+                  Metal mine
+                   (
+                  25
+                  )
+                </p>
+              </div>
+            </span>
+          </div>
+        </li>
+        <hr
+          className="MuiDivider-root makeStyles-divider-907"
+        />
+        <li
+          className="MuiListItem-root MuiListItem-gutters"
+          disabled={false}
+        >
+          <div
+            className="MuiListItemText-root makeStyles-itemText-903"
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+            >
+              <div
+                className="MuiBox-root MuiBox-root-1021"
+              >
+                <p
+                  className="MuiTypography-root makeStyles-itemTitle-905 MuiTypography-body1"
+                >
+                  Refinery
+                   (
+                  12
+                  )
+                </p>
+              </div>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;
+
+exports[`Storyshots PlanetQueue Empty 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root makeStyles-paper-1022 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <p
+        className="MuiTypography-root makeStyles-queueTitle-1023 MuiTypography-body1 MuiTypography-alignCenter"
+      >
+        Facilities
+      </p>
+      <div
+        className="makeStyles-emptyQueue-1030"
+      >
+        Queue empty.
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;

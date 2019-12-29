@@ -21,6 +21,19 @@ export default makeStyles((theme: Theme) => ({
   mainContent: {
     flex: 1,
     padding: '48px 36px 0',
+    color: 'rgba(255, 255, 255, 0.7)',
+  },
+  mainBackgroundImage: {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/space-bg1.jpg)`,
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+    top: 0,
+    left: 0,
+    filter: 'blur(1px)',
+    zIndex: -1,
   },
   wrapper: {
     flex: 1,

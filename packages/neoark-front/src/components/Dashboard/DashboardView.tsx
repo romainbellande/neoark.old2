@@ -42,6 +42,7 @@ const DashboardView = ({ mobileOpen, handleDrawerToggle, routes }: Props) => {
         <DashboardHeader onDrawerToggle={handleDrawerToggle} />
         <div className={classes.wrapper}>
           <main className={classes.mainContent}>
+            <span className={classes.mainBackgroundImage} />
             {routes.map(({ children }) => children.map(({ id, ...route }) => <Route key={`route-${id}`} {...route} />))}
           </main>
         </div>
