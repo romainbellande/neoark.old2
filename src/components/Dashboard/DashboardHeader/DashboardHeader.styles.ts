@@ -4,7 +4,7 @@ export const lightColor = 'rgba(255, 255, 255, 0.7)';
 
 export default makeStyles((theme: Theme) => ({
   appBar: {
-    backgroundColor: theme.palette.primary.light,
+    backgroundColor: '#18202c',
   },
   secondaryBar: {
     backgroundColor: 'white',
