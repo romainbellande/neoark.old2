@@ -7,6 +7,34 @@
 Ogame like game.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Tooling
+
+This project is made in Typescript
+
+## Testing
+
+- [jest](https://jestjs.io/)
+- [storyshots](https://www.npmjs.com/package/@storybook/addon-storyshots)
+- [testing-library](https://testing-library.com/docs/react-testing-library/intro)
+
+### CI / CD
+
+- [github actions](https://github.com/features/actions) ([wip](https://github.com/marketplace/wip) & nodejs build)
+- [coveralls](https://coveralls.io)
+- [netlify](https://www.netlify.com)
+
+## Quality
+
+- [eslint](https://eslint.org/)
+- [prettier](https://prettier.io/)
+- [commitlint](https://github.com/conventional-changelog/commitlint/#what-is-commitlint)
+- [husky](https://github.com/typicode/husky)
+
+## Misc
+
+- [create react app](https://create-react-app.dev/)
+- [storybook](https://storybook.js.org/)
+
 ## Suggested settings for Vscode
 
 In your .vscode/settings.json file:
