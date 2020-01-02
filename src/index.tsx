@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LogRocket from 'logrocket';
+import setupLogRocketReact from 'logrocket-react';
 
 import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import routing from './routing';
+
+LogRocket.init(process.env.REACT_APP_LOG_ROCKET || '');
+setupLogRocketReact(LogRocket);
 
 ReactDOM.render(<App routes={routing} />, document.getElementById('root'));
 
