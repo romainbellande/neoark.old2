@@ -43,13 +43,13 @@ const theme = createMuiTheme({
   palette: {
     common: {
       black: '#000',
-      white: '#fff',
+      white: 'rgba(255, 255, 255, 0.7)',
     },
     type: 'light',
     primary: {
-      main: '#1976d2',
+      main: '#232f3e',
       light: 'rgb(71, 145, 219)',
-      dark: 'rgb(17, 82, 147)',
+      dark: '#18202c',
       contrastText: '#fff',
     },
     secondary: {

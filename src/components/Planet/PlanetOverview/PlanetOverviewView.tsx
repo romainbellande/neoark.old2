@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
 
-import planetMock from 'src/common/resources/planet/planet.mock';
+import planetMock from 'src/common/resources/mocks/planet.mock';
 import Planet from 'src/common/resources/planet/planet.interface';
 import PlanetSummary from '../PlanetSummary';
 import PlanetQueue from '../PlanetQueue';

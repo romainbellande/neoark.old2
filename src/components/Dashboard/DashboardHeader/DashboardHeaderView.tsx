@@ -7,15 +7,19 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Toolbar from '@material-ui/core/Toolbar';
 
 import useStyles from './DashboardHeader.styles';
+import ResourceBar from 'src/components/ResourceBar';
+import PlanetResource from 'src/common/resources/planet/planet-resource.interface';
 
 interface Props {
   /**
    * Triggered on mobile only when a user click on the burger menu.
    */
   onDrawerToggle(): void;
+
+  resources: PlanetResource[];
 }
 
-const DashboardHeaderView = ({ onDrawerToggle }: Props) => {
+const DashboardHeaderView = ({ onDrawerToggle, resources }: Props) => {
   const classes = useStyles();
   return (
     <React.Fragment>
@@ -34,6 +38,7 @@ const DashboardHeaderView = ({ onDrawerToggle }: Props) => {
                 </IconButton>
               </Hidden>
             </Grid>
+            <ResourceBar items={resources} />
             <Grid item className={classes.endSpacer} />
           </Grid>
         </Toolbar>

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Navigator Default 1`] = `
+exports[`Storyshots Dashboard|Navigator Default 1`] = `
 Array [
   <div
     style={
@@ -20,20 +20,20 @@ Array [
           className="MuiList-root"
         >
           <li
-            className="MuiListItem-root makeStyles-firebase-433 makeStyles-item-431 makeStyles-itemCategory-432 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-firebase-449 makeStyles-item-447 makeStyles-itemCategory-448 MuiListItem-gutters"
             disabled={false}
           >
             Voard
           </li>
           <li
-            className="MuiListItem-root makeStyles-categoryHeader-429 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-categoryHeader-445 MuiListItem-gutters"
             disabled={false}
           >
             <div
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-430 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-446 MuiTypography-body1"
               >
                 Develop
               </span>
@@ -41,7 +41,7 @@ Array [
           </li>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 makeStyles-itemActiveItem-434 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 makeStyles-itemActiveItem-450 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -57,7 +57,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -75,7 +75,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Authentication
               </span>
@@ -83,7 +83,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -99,7 +99,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -117,7 +117,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Database
               </span>
@@ -125,7 +125,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -141,7 +141,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -163,7 +163,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Storage
               </span>
@@ -171,7 +171,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -187,7 +187,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -205,7 +205,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Hosting
               </span>
@@ -213,7 +213,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -229,7 +229,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -247,7 +247,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Functions
               </span>
@@ -255,7 +255,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -271,7 +271,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -289,24 +289,24 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 ML Kit
               </span>
             </div>
           </div>
           <hr
-            className="MuiDivider-root makeStyles-divider-437"
+            className="MuiDivider-root makeStyles-divider-453"
           />
           <li
-            className="MuiListItem-root makeStyles-categoryHeader-429 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-categoryHeader-445 MuiListItem-gutters"
             disabled={false}
           >
             <div
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-430 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-446 MuiTypography-body1"
               >
                 Quality
               </span>
@@ -314,7 +314,7 @@ Array [
           </li>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -330,7 +330,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -354,7 +354,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Analytics
               </span>
@@ -362,7 +362,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -378,7 +378,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -396,7 +396,7 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Performance
               </span>
@@ -404,7 +404,7 @@ Array [
           </div>
           <div
             aria-disabled={false}
-            className="MuiButtonBase-root MuiListItem-root makeStyles-item-431 MuiListItem-gutters MuiListItem-button"
+            className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
             onBlur={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
@@ -420,7 +420,7 @@ Array [
             tabIndex={0}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-436"
+              className="MuiListItemIcon-root makeStyles-itemIcon-452"
             >
               <svg
                 aria-hidden="true"
@@ -438,14 +438,14 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-435 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-451 MuiTypography-body1"
               >
                 Test Lab
               </span>
             </div>
           </div>
           <hr
-            className="MuiDivider-root makeStyles-divider-437"
+            className="MuiDivider-root makeStyles-divider-453"
           />
         </ul>
       </div>
