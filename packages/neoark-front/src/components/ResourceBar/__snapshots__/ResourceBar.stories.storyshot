@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots ResourceBar|ResourceBar Default 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiBox-root MuiBox-root-1196 makeStyles-root-1194"
+    >
+      <div
+        className="MuiBox-root MuiBox-root-1199 makeStyles-root-1197"
+      >
+        <div
+          className="makeStyles-label-1198"
+        >
+          Metal
+          :
+        </div>
+        <div>
+          1,000,000
+        </div>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-1200 makeStyles-root-1197"
+      >
+        <div
+          className="makeStyles-label-1198"
+        >
+          Crystal
+          :
+        </div>
+        <div>
+          100
+        </div>
+      </div>
+      <div
+        className="MuiBox-root MuiBox-root-1201 makeStyles-root-1197"
+      >
+        <div
+          className="makeStyles-label-1198"
+        >
+          Deuterium
+          :
+        </div>
+        <div>
+          10,000
+        </div>
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;

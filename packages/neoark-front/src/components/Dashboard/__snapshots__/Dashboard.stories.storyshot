@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots Dashboard Default 1`] = `
+exports[`Storyshots Dashboard|Dashboard Default 1`] = `
 Array [
   <div
     style={
@@ -121,6 +121,49 @@ Array [
               <div
                 className="MuiGrid-root MuiGrid-item"
               />
+              <div
+                className="MuiBox-root MuiBox-root-269 makeStyles-root-267"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-272 makeStyles-root-270"
+                >
+                  <div
+                    className="makeStyles-label-271"
+                  >
+                    Metal
+                    :
+                  </div>
+                  <div>
+                    1,000,000
+                  </div>
+                </div>
+                <div
+                  className="MuiBox-root MuiBox-root-273 makeStyles-root-270"
+                >
+                  <div
+                    className="makeStyles-label-271"
+                  >
+                    Crystal
+                    :
+                  </div>
+                  <div>
+                    100
+                  </div>
+                </div>
+                <div
+                  className="MuiBox-root MuiBox-root-274 makeStyles-root-270"
+                >
+                  <div
+                    className="makeStyles-label-271"
+                  >
+                    Deuterium
+                    :
+                  </div>
+                  <div>
+                    10,000
+                  </div>
+                </div>
+              </div>
               <div
                 className="MuiGrid-root makeStyles-endSpacer-150 MuiGrid-item"
               />

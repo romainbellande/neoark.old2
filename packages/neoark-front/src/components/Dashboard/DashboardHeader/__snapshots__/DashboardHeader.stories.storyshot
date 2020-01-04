@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots DashboardHeader Default 1`] = `
+exports[`Storyshots Dashboard|DashboardHeader Default 1`] = `
 Array [
   <div
     style={
@@ -11,7 +11,7 @@ Array [
     }
   >
     <header
-      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-277 MuiAppBar-colorPrimary MuiPaper-elevation0"
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-285 MuiAppBar-colorPrimary MuiPaper-elevation0"
     >
       <div
         className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -23,7 +23,50 @@ Array [
             className="MuiGrid-root MuiGrid-item"
           />
           <div
-            className="MuiGrid-root makeStyles-endSpacer-284 MuiGrid-item"
+            className="MuiBox-root MuiBox-root-439 makeStyles-root-437"
+          >
+            <div
+              className="MuiBox-root MuiBox-root-442 makeStyles-root-440"
+            >
+              <div
+                className="makeStyles-label-441"
+              >
+                Metal
+                :
+              </div>
+              <div>
+                1,000,000
+              </div>
+            </div>
+            <div
+              className="MuiBox-root MuiBox-root-443 makeStyles-root-440"
+            >
+              <div
+                className="makeStyles-label-441"
+              >
+                Crystal
+                :
+              </div>
+              <div>
+                100
+              </div>
+            </div>
+            <div
+              className="MuiBox-root MuiBox-root-444 makeStyles-root-440"
+            >
+              <div
+                className="makeStyles-label-441"
+              >
+                Deuterium
+                :
+              </div>
+              <div>
+                10,000
+              </div>
+            </div>
+          </div>
+          <div
+            className="MuiGrid-root makeStyles-endSpacer-292 MuiGrid-item"
           />
         </div>
       </div>
