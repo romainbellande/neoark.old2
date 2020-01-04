@@ -3,7 +3,7 @@ import React from 'react';
 import PlanetQueue from './PlanetQueueContainer';
 import QueueItem from '../../../common/resources/planet/queue-item.interface';
 
-export default { title: 'PlanetQueue', component: PlanetQueue };
+export default { title: 'Planet|PlanetQueue', component: PlanetQueue };
 
 const queueList: QueueItem[] = [
   {

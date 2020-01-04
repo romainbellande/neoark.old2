@@ -3,8 +3,9 @@ import PeopleIcon from '@material-ui/icons/People';
 
 import DashboardContainer from './DashboardContainer';
 import DashboardCategory from './interfaces/dashboard-category.interface';
+import planetMock from 'src/common/resources/mocks/planet.mock';
 
-export default { title: 'Dashboard', component: DashboardContainer };
+export default { title: 'Dashboard|Dashboard', component: DashboardContainer };
 
 const routes: DashboardCategory[] = [
   {
@@ -20,4 +21,4 @@ const routes: DashboardCategory[] = [
   },
 ];
 
-export const Default = () => <DashboardContainer routes={routes} />;
+export const Default = () => <DashboardContainer routes={routes} resources={planetMock.resources} />;

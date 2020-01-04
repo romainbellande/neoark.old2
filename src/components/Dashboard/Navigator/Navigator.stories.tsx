@@ -11,7 +11,7 @@ import PhonelinkSetupIcon from '@material-ui/icons/PhonelinkSetup';
 
 import Navigator from './NavigatorView';
 
-export default { title: 'Navigator', component: Navigator };
+export default { title: 'Dashboard|Navigator', component: Navigator };
 
 const routes = [
   {

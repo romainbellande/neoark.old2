@@ -33,7 +33,7 @@ jobs:
         run: |
           yarn --pure-lockfile
           yarn lint
-          yarn test:ci
+          yarn test
 
       - name: Coveralls GitHub Action
         uses: coverallsapp/github-action@v1.0.1
