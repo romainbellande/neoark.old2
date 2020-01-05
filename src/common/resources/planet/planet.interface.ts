@@ -5,6 +5,7 @@ import PlanetQueue from './planet-queue.interface';
 import PlanetResource from './planet-resource.interface';
 
 export default interface Planet {
+  id?: string;
   name: string;
   diameter: PlanetDiameter;
   coordinates: PlanetCoordinates;
