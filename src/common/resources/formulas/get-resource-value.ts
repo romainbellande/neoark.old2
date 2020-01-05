@@ -15,5 +15,5 @@ export default ({ resource, from, to }: Params): number => {
   }
 
   const hours = (to - from) / HOUR_IN_MS;
-  return resource.value + getProductionPerHour(resource) * hours;
+  return resource.value + getProductionPerHour(resource.code, resource.level) * hours;
 };
