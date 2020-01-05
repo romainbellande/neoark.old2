@@ -20,11 +20,14 @@ import clsx from 'clsx';
 import useStyles from './FacilityOverview.styles';
 import Facility from 'src/common/resources/facility/facility.interface';
 import getProductionPerHour from 'src/common/resources/formulas/get-production-per-hour';
+import getResourceName from 'src/common/resources/formulas/get-resource-name';
 
 interface Props extends Facility {
   expanded: boolean;
   onExpand(): void;
   onUpgrade(): void;
+  progress?: number;
+  remainingDate?: string;
 }
 
 const FacilityOverviewView: FC<Props> = ({
@@ -36,12 +39,15 @@ const FacilityOverviewView: FC<Props> = ({
   cost,
   production,
   onUpgrade,
+  progress,
+  remainingDate,
 }) => {
   const classes = useStyles();
+  const isUpgrading: boolean = typeof progress === 'number';
 
   return (
-    <Card className={classes.root}>
-      <CardContent>
+    <Card className={clsx(classes.root, { [classes.rootInProgress]: isUpgrading })}>
+      <CardContent className={classes.cardHeader}>
         <Box display="flex" alignItems="center">
           <Typography>
             {name} ({level})
@@ -57,6 +63,10 @@ const FacilityOverviewView: FC<Props> = ({
             <ExpandMoreIcon color="inherit" />
           </IconButton>
         </Box>
+        <div className={classes.remainingTime} hidden={!isUpgrading}>
+          {remainingDate}
+        </div>
+        <div className={classes.progress} style={{ width: progress ? `${progress}%` : 0 }} />
       </CardContent>
       <Collapse in={expanded} timeout="auto">
         <CardContent>
@@ -100,18 +110,18 @@ const FacilityOverviewView: FC<Props> = ({
                 </TableHead>
                 <TableBody>
                   {cost.map(costItem => (
-                    <TableRow key={costItem.name}>
+                    <TableRow key={costItem.code}>
                       <TableCell component="th" scope="row">
-                        {costItem.name}
+                        {getResourceName(costItem.code)}
                       </TableCell>
-                      <TableCell align="right">{costItem.amount}</TableCell>
+                      <TableCell align="right">{Math.floor(costItem.amount)}</TableCell>
                     </TableRow>
                   ))}
                 </TableBody>
               </Table>
             </TableContainer>
             <Box display="flex" flexDirection="row-reverse" className={classes.actions}>
-              <Button type="button" variant="contained" onClick={onUpgrade}>
+              <Button type="button" variant="contained" onClick={onUpgrade} disabled={isUpgrading}>
                 Upgrade
               </Button>
             </Box>

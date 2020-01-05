@@ -6,4 +6,8 @@ import facilitiesMock from 'src/common/resources/mocks/facilities.mock';
 
 export default { title: 'Facility|FacilityOverview', component: FacilityOverview };
 
-export const Default = () => <FacilityOverview {...facilitiesMock[0]} onUpgrade={action('onUpgrade')} />;
+export const Default = () => (
+  <FacilityOverview {...facilitiesMock[0]} onUpgrade={action('onUpgrade')} upgradeStartedAt={undefined} />
+);
+
+export const Upgrading = () => <FacilityOverview {...facilitiesMock[0]} onUpgrade={action('onUpgrade')} />;

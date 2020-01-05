@@ -80,7 +80,7 @@ Array [
           className="MuiCardActions-root MuiCardActions-spacing"
         >
           <div
-            className="MuiBox-root MuiBox-root-899 makeStyles-cardActionsBox-720"
+            className="MuiBox-root MuiBox-root-1056 makeStyles-cardActionsBox-877"
           >
             <button
               className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"

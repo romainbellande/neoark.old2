@@ -9,4 +9,5 @@ export default interface Facility {
   cost: FacilityCostItem[];
   production: FacilityProductionItem[];
   code: FacilityCode;
+  upgradeStartedAt?: number;
 }
