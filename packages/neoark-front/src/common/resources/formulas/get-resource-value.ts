@@ -1,4 +1,3 @@
-import getProductionPerHour from './get-production-per-hour';
 import PlanetResource from '../planet/planet-resource.interface';
 
 const HOUR_IN_MS = 1000 * 60 * 60;
@@ -15,5 +14,5 @@ export default ({ resource, from, to }: Params): number => {
   }
 
   const hours = (to - from) / HOUR_IN_MS;
-  return resource.value + getProductionPerHour(resource.code, resource.level) * hours;
+  return resource.value + 100 * hours; // TODO: Make this dynamic
 };
