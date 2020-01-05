@@ -11,10 +11,10 @@ Array [
     }
   >
     <div
-      className="MuiBox-root MuiBox-root-1517 makeStyles-root-1514"
+      className="MuiBox-root MuiBox-root-1522 makeStyles-root-1519"
     >
       <div
-        className="makeStyles-label-1515"
+        className="makeStyles-label-1520"
       >
         Metal
         :
