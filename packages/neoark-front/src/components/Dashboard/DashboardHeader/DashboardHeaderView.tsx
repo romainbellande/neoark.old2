@@ -8,7 +8,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 
 import useStyles from './DashboardHeader.styles';
 import ResourceBar from 'src/components/ResourceBar';
-import PlanetResource from 'src/common/resources/planet/planet-resource.interface';
+import Resource from 'src/common/resources/resource/resource.interface';
 
 interface Props {
   /**
@@ -16,7 +16,7 @@ interface Props {
    */
   onDrawerToggle(): void;
 
-  resources: PlanetResource[];
+  resources: Resource[];
 }
 
 const DashboardHeaderView = ({ onDrawerToggle, resources }: Props) => {

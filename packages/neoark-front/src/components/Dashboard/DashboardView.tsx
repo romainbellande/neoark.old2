@@ -7,13 +7,13 @@ import Navigator from './Navigator';
 import DashboardHeader from './DashboardHeader';
 import useStyles, { drawerWidth } from './Dashboard.styles';
 import DashboardCategory from './interfaces/dashboard-category.interface';
-import PlanetResource from 'src/common/resources/planet/planet-resource.interface';
+import Resource from 'src/common/resources/resource/resource.interface';
 
 export interface Props {
   mobileOpen: boolean;
   handleDrawerToggle(): void;
   routes: DashboardCategory[];
-  resources: PlanetResource[];
+  resources: Resource[];
 }
 
 const DashboardView = ({ mobileOpen, handleDrawerToggle, routes, resources }: Props) => {

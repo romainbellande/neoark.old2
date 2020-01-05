@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 import Box from '@material-ui/core/Box';
 
 import ResourceBarItem from './ResourceBarItem';
-import { Props as ResourceBarItemProps } from './ResourceBarItem/ResourceBarItemView';
+import Resource from 'src/common/resources/resource/resource.interface';
 import useStyles from './ResourceBar.styles';
 
 interface Props {
-  items: ResourceBarItemProps[];
+  items: Resource[];
 }
 
 const ResourceBarView: FC<Props> = ({ items }) => {
@@ -14,8 +14,8 @@ const ResourceBarView: FC<Props> = ({ items }) => {
 
   return (
     <Box display="flex" justifyContent="center" className={classes.root}>
-      {items.map(({ label, value }) => (
-        <ResourceBarItem key={`resource-bar-item-${label}`} label={label} value={value} />
+      {items.map(({ code, amount }) => (
+        <ResourceBarItem key={`resource-bar-item-${code}`} code={code} amount={amount} />
       ))}
     </Box>
   );

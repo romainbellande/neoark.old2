@@ -19,7 +19,8 @@ Array [
         <h3
           className="MuiTypography-root MuiTypography-h3"
         >
-          Overview - 
+          Overview
+           - 
           Terra
         </h3>
       </div>

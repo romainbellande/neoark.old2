@@ -22,11 +22,10 @@ export default makeStyles((theme: Theme) => ({
     flex: 1,
     padding: '48px 36px 0',
     color: 'rgba(255, 255, 255, 0.7)',
+    position: 'relative',
   },
   mainBackgroundImage: {
-    backgroundImage: `url(${process.env.PUBLIC_URL}/space-bg1.jpg)`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover',
+    backgroundColor: '#5d748c',
     position: 'absolute',
     width: '100%',
     height: '100%',

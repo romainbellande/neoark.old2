@@ -95,7 +95,7 @@ Array [
               className="MuiCardContent-root"
             >
               <div>
-                Main resource to construct facilities and spaceships
+                Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
               </div>
               <hr
                 className="MuiDivider-root makeStyles-divider-568"
@@ -396,7 +396,7 @@ Array [
               className="MuiCardContent-root"
             >
               <div>
-                Main resource to construct facilities and spaceships
+                Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
               </div>
               <hr
                 className="MuiDivider-root makeStyles-divider-724"
