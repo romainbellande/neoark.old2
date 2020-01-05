@@ -11,13 +11,13 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root MuiCard-root makeStyles-root-565 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root MuiCard-root makeStyles-root-570 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardContent-root makeStyles-cardHeader-574"
+        className="MuiCardContent-root makeStyles-cardHeader-579"
       >
         <div
-          className="MuiBox-root MuiBox-root-606"
+          className="MuiBox-root MuiBox-root-611"
         >
           <p
             className="MuiTypography-root MuiTypography-body1"
@@ -30,7 +30,7 @@ Array [
           <button
             aria-expanded={false}
             aria-label="show more"
-            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-571"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-576"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -65,11 +65,11 @@ Array [
           </button>
         </div>
         <div
-          className="makeStyles-remainingTime-567"
+          className="makeStyles-remainingTime-572"
           hidden={true}
         />
         <div
-          className="makeStyles-progress-573"
+          className="makeStyles-progress-578"
           style={
             Object {
               "width": 0,
@@ -98,11 +98,11 @@ Array [
                 Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-568"
+                className="MuiDivider-root makeStyles-divider-573"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-569"
+                  className="makeStyles-costTitle-574"
                 >
                   Current production
                 </div>
@@ -161,11 +161,11 @@ Array [
                 </div>
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-568"
+                className="MuiDivider-root makeStyles-divider-573"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-569"
+                  className="makeStyles-costTitle-574"
                 >
                   Next level cost
                 </div>
@@ -239,7 +239,7 @@ Array [
                   </table>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-691 makeStyles-actions-570"
+                  className="MuiBox-root MuiBox-root-696 makeStyles-actions-575"
                 >
                   <button
                     className="MuiButtonBase-root MuiButton-root MuiButton-contained"
@@ -310,13 +310,13 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root MuiCard-root makeStyles-root-721 makeStyles-rootInProgress-722 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root MuiCard-root makeStyles-root-726 makeStyles-rootInProgress-727 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardContent-root makeStyles-cardHeader-730"
+        className="MuiCardContent-root makeStyles-cardHeader-735"
       >
         <div
-          className="MuiBox-root MuiBox-root-762"
+          className="MuiBox-root MuiBox-root-767"
         >
           <p
             className="MuiTypography-root MuiTypography-body1"
@@ -329,7 +329,7 @@ Array [
           <button
             aria-expanded={false}
             aria-label="show more"
-            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-727"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-732"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -364,13 +364,13 @@ Array [
           </button>
         </div>
         <div
-          className="makeStyles-remainingTime-723"
+          className="makeStyles-remainingTime-728"
           hidden={false}
         >
           less than 5 seconds
         </div>
         <div
-          className="makeStyles-progress-729"
+          className="makeStyles-progress-734"
           style={
             Object {
               "width": "74%",
@@ -399,11 +399,11 @@ Array [
                 Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-724"
+                className="MuiDivider-root makeStyles-divider-729"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-725"
+                  className="makeStyles-costTitle-730"
                 >
                   Current production
                 </div>
@@ -462,11 +462,11 @@ Array [
                 </div>
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-724"
+                className="MuiDivider-root makeStyles-divider-729"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-725"
+                  className="makeStyles-costTitle-730"
                 >
                   Next level cost
                 </div>
@@ -540,7 +540,7 @@ Array [
                   </table>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-847 makeStyles-actions-726"
+                  className="MuiBox-root MuiBox-root-852 makeStyles-actions-731"
                 >
                   <button
                     className="MuiButtonBase-root MuiButton-root MuiButton-contained Mui-disabled Mui-disabled"
