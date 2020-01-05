@@ -16,13 +16,14 @@ import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import clsx from 'clsx';
+import { useTranslation } from 'react-i18next';
 
 import useStyles from './FacilityOverview.styles';
 import Facility from 'src/common/resources/facility/facility.interface';
-import getResourceName from 'src/common/resources/formulas/get-resource-name';
 import getFacilityProduction from 'src/common/resources/formulas/get-facility-production';
 import FacilityProductionItem from 'src/common/resources/facility/facility-production-item.interface';
 import FacilityCostItem from 'src/common/resources/facility/facility-cost-item.interface';
+import { translationKeys } from 'src/i18n';
 
 interface Props extends Facility {
   expanded: boolean;
@@ -49,13 +50,14 @@ const FacilityOverviewView: FC<Props> = ({
 }) => {
   const classes = useStyles();
   const isUpgrading: boolean = typeof progress === 'number';
+  const { t } = useTranslation();
 
   return (
     <Card className={clsx(classes.root, { [classes.rootInProgress]: isUpgrading })}>
       <CardContent className={classes.cardHeader}>
         <Box display="flex" alignItems="center">
           <Typography>
-            {name} ({level})
+            {t(translationKeys.facilities[code].name)} ({level})
           </Typography>
           <IconButton
             className={clsx(classes.expand, {
@@ -75,7 +77,7 @@ const FacilityOverviewView: FC<Props> = ({
       </CardContent>
       <Collapse in={expanded} timeout="auto">
         <CardContent>
-          <div>{description}</div>
+          <div>{t(translationKeys.facilities[code].description)}</div>
           <Divider className={classes.divider} />
           <div>
             <div className={classes.costTitle}>Current production</div>
@@ -91,7 +93,7 @@ const FacilityOverviewView: FC<Props> = ({
                   {production.map(productionItem => (
                     <TableRow key={`table-prod-${productionItem.code}`}>
                       <TableCell component="th" scope="row">
-                        {getResourceName(productionItem.code)}
+                        {t(translationKeys.resources[productionItem.code].name)}
                       </TableCell>
                       <TableCell align="right">
                         {Math.floor(getFacilityProduction(code, level)[productionItem.code])}/h
@@ -117,7 +119,7 @@ const FacilityOverviewView: FC<Props> = ({
                   {cost.map(costItem => (
                     <TableRow key={costItem.code}>
                       <TableCell component="th" scope="row">
-                        {getResourceName(costItem.code)}
+                        {t(translationKeys.resources[costItem.code].name)}
                       </TableCell>
                       <TableCell align="right">{Math.floor(costItem.amount)}</TableCell>
                     </TableRow>

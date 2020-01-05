@@ -8,6 +8,7 @@ import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import routing from './routing';
 import databaseInit from './common/database/database-init';
+import './i18n';
 
 LogRocket.init(process.env.REACT_APP_LOG_ROCKET || '');
 setupLogRocketReact(LogRocket);

@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 
 import DashboardView from './DashboardView';
 import DashboardCategory from './interfaces/dashboard-category.interface';
-import PlanetResource from 'src/common/resources/planet/planet-resource.interface';
+import Resource from 'src/common/resources/resource/resource.interface';
 
 interface Props {
   routes: DashboardCategory[];
-  resources: PlanetResource[];
+  resources: Resource[];
 }
 
 const DashboardContainer: React.FC<Props> = ({ routes, resources }) => {
