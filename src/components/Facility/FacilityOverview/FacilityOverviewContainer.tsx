@@ -5,6 +5,9 @@ import FacilityOverviewView from './FacilityOverviewView';
 import Facility from 'src/common/resources/facility/facility.interface';
 import getFacilityUpgradeDuration from 'src/common/resources/formulas/get-facility-upgrade-duration';
 import getFacilityCost from 'src/common/resources/formulas/get-facility-cost';
+import FacilityProductionItem from 'src/common/resources/facility/facility-production-item.interface';
+import getFacilityProduction from 'src/common/resources/formulas/get-facility-production';
+import ResourceCode from 'src/common/resources/resource/resource-code.enum';
 
 interface Props extends Facility {
   onUpgrade(): void;
@@ -24,19 +27,16 @@ const getProgress = (startTimeInMs: number, duration: number): number => {
   return Math.floor((100 * (duration - remainingTime)) / duration);
 };
 
-const FacilityOverviewContainer: FC<Props> = ({
-  name,
-  level,
-  description,
-  production,
-  onUpgrade,
-  code,
-  upgradeStartedAt,
-}) => {
+const FacilityOverviewContainer: FC<Props> = ({ name, level, description, onUpgrade, code, upgradeStartedAt }) => {
   const cost = getFacilityCost(code, level + 1);
   const duration = getFacilityUpgradeDuration(cost);
   const initialProgress = upgradeStartedAt ? getProgress(upgradeStartedAt, duration) : undefined;
   const initialRemainingDate = upgradeStartedAt ? getRemainingDate(upgradeStartedAt, duration) : undefined;
+  const facilityProductionMatrix = getFacilityProduction(code, level);
+  const production: FacilityProductionItem[] = Object.keys(facilityProductionMatrix).map(resourceCode => ({
+    code: resourceCode as ResourceCode,
+    amount: facilityProductionMatrix[resourceCode],
+  }));
 
   const [expanded, setExpanded] = useState(false);
   const [progress, setProgress] = useState(initialProgress);

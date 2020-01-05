@@ -7,9 +7,12 @@ import './index.css';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 import routing from './routing';
+import databaseInit from './common/database/database-init';
 
 LogRocket.init(process.env.REACT_APP_LOG_ROCKET || '');
 setupLogRocketReact(LogRocket);
+
+databaseInit();
 
 ReactDOM.render(<App routes={routing} />, document.getElementById('root'));
 

@@ -19,8 +19,10 @@ import clsx from 'clsx';
 
 import useStyles from './FacilityOverview.styles';
 import Facility from 'src/common/resources/facility/facility.interface';
-import getProductionPerHour from 'src/common/resources/formulas/get-production-per-hour';
 import getResourceName from 'src/common/resources/formulas/get-resource-name';
+import getFacilityProduction from 'src/common/resources/formulas/get-facility-production';
+import FacilityProductionItem from 'src/common/resources/facility/facility-production-item.interface';
+import FacilityCostItem from 'src/common/resources/facility/facility-cost-item.interface';
 
 interface Props extends Facility {
   expanded: boolean;
@@ -28,6 +30,8 @@ interface Props extends Facility {
   onUpgrade(): void;
   progress?: number;
   remainingDate?: string;
+  production: FacilityProductionItem[];
+  cost: FacilityCostItem[];
 }
 
 const FacilityOverviewView: FC<Props> = ({
@@ -41,6 +45,7 @@ const FacilityOverviewView: FC<Props> = ({
   onUpgrade,
   progress,
   remainingDate,
+  code,
 }) => {
   const classes = useStyles();
   const isUpgrading: boolean = typeof progress === 'number';
@@ -84,12 +89,12 @@ const FacilityOverviewView: FC<Props> = ({
                 </TableHead>
                 <TableBody>
                   {production.map(productionItem => (
-                    <TableRow key={productionItem.name}>
+                    <TableRow key={`table-prod-${productionItem.code}`}>
                       <TableCell component="th" scope="row">
-                        {productionItem.name}
+                        {getResourceName(productionItem.code)}
                       </TableCell>
                       <TableCell align="right">
-                        {Math.floor(getProductionPerHour(productionItem.code, level))}/h
+                        {Math.floor(getFacilityProduction(code, level)[productionItem.code])}/h
                       </TableCell>
                     </TableRow>
                   ))}
