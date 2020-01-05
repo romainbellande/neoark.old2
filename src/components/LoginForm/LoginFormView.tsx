@@ -9,9 +9,11 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Box from '@material-ui/core/Box';
+import { useTranslation } from 'react-i18next';
 
 import useStyles from './LoginForm.styles';
 import Credentials from './credentials.interface';
+import { translationKeys } from 'src/i18n';
 
 const errorHandler = <T extends {}>(formik: { errors: FormikErrors<T>; submitCount: number }) => (
   field: keyof T,
@@ -25,6 +27,7 @@ interface Props {
 
 const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props) => {
   const classes = useStyles();
+  const { t } = useTranslation();
 
   const formik = useFormik({
     initialValues,
@@ -45,7 +48,7 @@ const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props)
                 name="email"
                 onChange={formik.handleChange}
                 value={formik.values.email}
-                placeholder="Email"
+                placeholder={t(translationKeys.login.email.label)}
                 error={getFieldError('email')}
                 required
                 fullWidth
@@ -59,7 +62,7 @@ const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props)
                 name="password"
                 onChange={formik.handleChange}
                 value={formik.values.password}
-                placeholder="Password"
+                placeholder={t(translationKeys.login.password.label)}
                 error={getFieldError('password')}
                 required
                 fullWidth
@@ -71,7 +74,7 @@ const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props)
         <CardActions>
           <Box className={classes.cardActionsBox} display="flex" justifyContent="flex-end">
             <Button type="submit" variant="contained" color="primary">
-              Submit
+              {t(translationKeys.login.submit)}
             </Button>
           </Box>
         </CardActions>

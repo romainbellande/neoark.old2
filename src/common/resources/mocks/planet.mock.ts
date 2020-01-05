@@ -18,21 +18,15 @@ const planetMock: Planet = {
   },
   resources: [
     {
-      label: 'Metal',
-      value: 1000000,
-      level: 26,
+      amount: 1000000,
       code: ResourceCode.METAL,
     },
     {
-      label: 'Crystal',
-      value: 100,
-      level: 5,
+      amount: 100,
       code: ResourceCode.CRYSTAL,
     },
     {
-      label: 'Deuterium',
-      value: 10000,
-      level: 4,
+      amount: 10000,
       code: ResourceCode.DEUTERIUM,
     },
   ],
