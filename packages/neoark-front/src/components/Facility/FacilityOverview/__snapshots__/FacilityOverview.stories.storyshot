@@ -11,26 +11,26 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root MuiCard-root makeStyles-root-568 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root MuiCard-root makeStyles-root-565 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardContent-root"
+        className="MuiCardContent-root makeStyles-cardHeader-574"
       >
         <div
-          className="MuiBox-root MuiBox-root-605"
+          className="MuiBox-root MuiBox-root-606"
         >
           <p
             className="MuiTypography-root MuiTypography-body1"
           >
             Metal mine
              (
-            10
+            1
             )
           </p>
           <button
             aria-expanded={false}
             aria-label="show more"
-            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-572"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-571"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -64,6 +64,18 @@ Array [
             </span>
           </button>
         </div>
+        <div
+          className="makeStyles-remainingTime-567"
+          hidden={true}
+        />
+        <div
+          className="makeStyles-progress-573"
+          style={
+            Object {
+              "width": 0,
+            }
+          }
+        />
       </div>
       <div
         className="MuiCollapse-container MuiCollapse-hidden"
@@ -86,11 +98,11 @@ Array [
                 Main resource to construct facilities and spaceships
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-569"
+                className="MuiDivider-root makeStyles-divider-568"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-570"
+                  className="makeStyles-costTitle-569"
                 >
                   Current production
                 </div>
@@ -140,7 +152,7 @@ Array [
                           aria-sort={null}
                           className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
                         >
-                          778
+                          33
                           /h
                         </td>
                       </tr>
@@ -149,11 +161,11 @@ Array [
                 </div>
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-569"
+                className="MuiDivider-root makeStyles-divider-568"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-570"
+                  className="makeStyles-costTitle-569"
                 >
                   Next level cost
                 </div>
@@ -203,14 +215,31 @@ Array [
                           aria-sort={null}
                           className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
                         >
-                          2500
+                          90
+                        </td>
+                      </tr>
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Crystal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          22
                         </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-690 makeStyles-actions-571"
+                  className="MuiBox-root MuiBox-root-691 makeStyles-actions-570"
                 >
                   <button
                     className="MuiButtonBase-root MuiButton-root MuiButton-contained"
@@ -228,6 +257,307 @@ Array [
                     onTouchMove={[Function]}
                     onTouchStart={[Function]}
                     tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      Upgrade
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;
+
+exports[`Storyshots Facility|FacilityOverview Upgrading 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-721 makeStyles-rootInProgress-722 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        className="MuiCardContent-root makeStyles-cardHeader-730"
+      >
+        <div
+          className="MuiBox-root MuiBox-root-762"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Metal mine
+             (
+            1
+            )
+          </p>
+          <button
+            aria-expanded={false}
+            aria-label="show more"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-727"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div
+          className="makeStyles-remainingTime-723"
+          hidden={false}
+        >
+          less than 5 seconds
+        </div>
+        <div
+          className="makeStyles-progress-729"
+          style={
+            Object {
+              "width": "74%",
+            }
+          }
+        />
+      </div>
+      <div
+        className="MuiCollapse-container MuiCollapse-hidden"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper"
+        >
+          <div
+            className="MuiCollapse-wrapperInner"
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <div>
+                Main resource to construct facilities and spaceships
+              </div>
+              <hr
+                className="MuiDivider-root makeStyles-divider-724"
+              />
+              <div>
+                <div
+                  className="makeStyles-costTitle-725"
+                >
+                  Current production
+                </div>
+                <div
+                  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+                >
+                  <table
+                    aria-label="simple table"
+                    className="MuiTable-root"
+                  >
+                    <thead
+                      className="MuiTableHead-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root MuiTableRow-head"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Name
+                        </th>
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+                          scope="col"
+                        >
+                          Amount per hour
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      className="MuiTableBody-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Metal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          33
+                          /h
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <hr
+                className="MuiDivider-root makeStyles-divider-724"
+              />
+              <div>
+                <div
+                  className="makeStyles-costTitle-725"
+                >
+                  Next level cost
+                </div>
+                <div
+                  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+                >
+                  <table
+                    aria-label="simple table"
+                    className="MuiTable-root"
+                  >
+                    <thead
+                      className="MuiTableHead-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root MuiTableRow-head"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Name
+                        </th>
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+                          scope="col"
+                        >
+                          Amount
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      className="MuiTableBody-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Metal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          90
+                        </td>
+                      </tr>
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Crystal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          22
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div
+                  className="MuiBox-root MuiBox-root-847 makeStyles-actions-726"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-contained Mui-disabled Mui-disabled"
+                    disabled={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={-1}
                     type="button"
                   >
                     <span
