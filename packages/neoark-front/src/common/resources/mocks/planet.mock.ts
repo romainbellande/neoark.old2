@@ -1,5 +1,5 @@
 import Planet from '../planet/planet.interface';
-import PlanetResourceCode from '../planet/planet-resource-code.enum';
+import ResourceCode from '../resource/resource-code.enum';
 
 const planetMock: Planet = {
   name: 'Terra',
@@ -21,19 +21,19 @@ const planetMock: Planet = {
       label: 'Metal',
       value: 1000000,
       level: 26,
-      code: PlanetResourceCode.METAL,
+      code: ResourceCode.METAL,
     },
     {
       label: 'Crystal',
       value: 100,
       level: 5,
-      code: PlanetResourceCode.CRYSTAL,
+      code: ResourceCode.CRYSTAL,
     },
     {
       label: 'Deuterium',
       value: 10000,
       level: 4,
-      code: PlanetResourceCode.DEUTERIUM,
+      code: ResourceCode.DEUTERIUM,
     },
   ],
   queues: [

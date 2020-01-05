@@ -53,10 +53,12 @@ Array [
                     </span>
                   </div>
                 </li>
-                <div
+                <a
                   aria-disabled={false}
                   className="MuiButtonBase-root MuiListItem-root makeStyles-item-25 MuiListItem-gutters MuiListItem-button"
+                  href="/"
                   onBlur={[Function]}
+                  onClick={[Function]}
                   onDragLeave={[Function]}
                   onFocus={[Function]}
                   onKeyDown={[Function]}
@@ -97,7 +99,7 @@ Array [
                   <span
                     className="MuiTouchRipple-root"
                   />
-                </div>
+                </a>
                 <hr
                   className="MuiDivider-root makeStyles-divider-31"
                 />

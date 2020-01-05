@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots ResourceBar|ResourceBarItem Default 1`] = `
+exports[`Storyshots Facility|FacilityListItem Default 1`] = `
 Array [
   <div
     style={
@@ -11,16 +11,16 @@ Array [
     }
   >
     <div
-      className="MuiBox-root MuiBox-root-1360 makeStyles-root-1357"
+      className="MuiBox-root MuiBox-root-567 makeStyles-root-565"
+      onClick={[Function]}
     >
-      <div
-        className="makeStyles-label-1358"
-      >
-        Metal
-        :
+      <div>
+        Metal mine
       </div>
       <div>
-        100,000
+        (
+        10
+        )
       </div>
     </div>
   </div>,

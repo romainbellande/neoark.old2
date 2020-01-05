@@ -7,6 +7,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import { Omit } from '@material-ui/types';
+import { Link } from 'react-router-dom';
 
 import useStyles from './Navigator.styles';
 import DashboardCategory from '../interfaces/dashboard-category.interface';
@@ -32,8 +33,13 @@ const NavigatorView = ({ routes, ...drawerProps }: NavigatorProps) => {
                 {id}
               </ListItemText>
             </ListItem>
-            {children.map(({ id: childId, icon, active }) => (
-              <ListItem key={childId} button className={clsx(classes.item, active && classes.itemActiveItem)}>
+            {children.map(({ id: childId, icon, active, path }) => (
+              <ListItem
+                key={childId}
+                button
+                className={clsx(classes.item, active && classes.itemActiveItem)}
+                component={props => <Link to={path} {...props} />}
+              >
                 <ListItemIcon className={classes.itemIcon}>{icon}</ListItemIcon>
                 <ListItemText
                   classes={{

@@ -11,10 +11,10 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root makeStyles-paper-917 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root makeStyles-paper-1072 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <p
-        className="MuiTypography-root makeStyles-queueTitle-918 MuiTypography-body1 MuiTypography-alignCenter"
+        className="MuiTypography-root makeStyles-queueTitle-1073 MuiTypography-body1 MuiTypography-alignCenter"
       >
         Facilities
       </p>
@@ -26,16 +26,16 @@ Array [
           disabled={false}
         >
           <div
-            className="MuiListItemText-root makeStyles-itemText-919"
+            className="MuiListItemText-root makeStyles-itemText-1074"
           >
             <span
               className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
             >
               <div
-                className="MuiBox-root MuiBox-root-1006"
+                className="MuiBox-root MuiBox-root-1161"
               >
                 <p
-                  className="MuiTypography-root makeStyles-itemTitle-921 MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-itemTitle-1076 MuiTypography-body1"
                 >
                   Space shuttle site
                    (
@@ -43,13 +43,13 @@ Array [
                   )
                 </p>
                 <div
-                  className="MuiBox-root MuiBox-root-1007 makeStyles-itemContent-920"
+                  className="MuiBox-root MuiBox-root-1162 makeStyles-itemContent-1075"
                 >
                   <div
-                    className="makeStyles-itemRow-922"
+                    className="makeStyles-itemRow-1077"
                   >
                     <div
-                      className="MuiBox-root MuiBox-root-1008"
+                      className="MuiBox-root MuiBox-root-1163"
                     >
                       <span>
                         remaining: 
@@ -59,7 +59,7 @@ Array [
                       </span>
                     </div>
                     <div
-                      className="makeStyles-itemProgress-924"
+                      className="makeStyles-itemProgress-1079"
                     >
                       <div
                         aria-valuenow={0}
@@ -83,23 +83,23 @@ Array [
           </div>
         </li>
         <hr
-          className="MuiDivider-root makeStyles-divider-923"
+          className="MuiDivider-root makeStyles-divider-1078"
         />
         <li
           className="MuiListItem-root MuiListItem-gutters"
           disabled={false}
         >
           <div
-            className="MuiListItemText-root makeStyles-itemText-919"
+            className="MuiListItemText-root makeStyles-itemText-1074"
           >
             <span
               className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
             >
               <div
-                className="MuiBox-root MuiBox-root-1036"
+                className="MuiBox-root MuiBox-root-1191"
               >
                 <p
-                  className="MuiTypography-root makeStyles-itemTitle-921 MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-itemTitle-1076 MuiTypography-body1"
                 >
                   Metal mine
                    (
@@ -111,23 +111,23 @@ Array [
           </div>
         </li>
         <hr
-          className="MuiDivider-root makeStyles-divider-923"
+          className="MuiDivider-root makeStyles-divider-1078"
         />
         <li
           className="MuiListItem-root MuiListItem-gutters"
           disabled={false}
         >
           <div
-            className="MuiListItemText-root makeStyles-itemText-919"
+            className="MuiListItemText-root makeStyles-itemText-1074"
           >
             <span
               className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
             >
               <div
-                className="MuiBox-root MuiBox-root-1037"
+                className="MuiBox-root MuiBox-root-1192"
               >
                 <p
-                  className="MuiTypography-root makeStyles-itemTitle-921 MuiTypography-body1"
+                  className="MuiTypography-root makeStyles-itemTitle-1076 MuiTypography-body1"
                 >
                   Refinery
                    (
@@ -178,15 +178,15 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root makeStyles-paper-1038 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root makeStyles-paper-1193 MuiPaper-elevation1 MuiPaper-rounded"
     >
       <p
-        className="MuiTypography-root makeStyles-queueTitle-1039 MuiTypography-body1 MuiTypography-alignCenter"
+        className="MuiTypography-root makeStyles-queueTitle-1194 MuiTypography-body1 MuiTypography-alignCenter"
       >
         Facilities
       </p>
       <div
-        className="makeStyles-emptyQueue-1046"
+        className="makeStyles-emptyQueue-1201"
       >
         Queue empty.
       </div>

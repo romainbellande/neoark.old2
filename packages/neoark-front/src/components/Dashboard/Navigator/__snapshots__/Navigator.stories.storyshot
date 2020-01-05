@@ -39,10 +39,12 @@ Array [
               </span>
             </div>
           </li>
-          <div
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 makeStyles-itemActiveItem-450 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -80,11 +82,13 @@ Array [
                 Authentication
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -122,11 +126,13 @@ Array [
                 Database
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -168,11 +174,13 @@ Array [
                 Storage
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -210,11 +218,13 @@ Array [
                 Hosting
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -252,11 +262,13 @@ Array [
                 Functions
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -294,7 +306,7 @@ Array [
                 ML Kit
               </span>
             </div>
-          </div>
+          </a>
           <hr
             className="MuiDivider-root makeStyles-divider-453"
           />
@@ -312,10 +324,12 @@ Array [
               </span>
             </div>
           </li>
-          <div
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -359,11 +373,13 @@ Array [
                 Analytics
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -401,11 +417,13 @@ Array [
                 Performance
               </span>
             </div>
-          </div>
-          <div
+          </a>
+          <a
             aria-disabled={false}
             className="MuiButtonBase-root MuiListItem-root makeStyles-item-447 MuiListItem-gutters MuiListItem-button"
+            href=""
             onBlur={[Function]}
+            onClick={[Function]}
             onDragLeave={[Function]}
             onFocus={[Function]}
             onKeyDown={[Function]}
@@ -443,7 +461,7 @@ Array [
                 Test Lab
               </span>
             </div>
-          </div>
+          </a>
           <hr
             className="MuiDivider-root makeStyles-divider-453"
           />

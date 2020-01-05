@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Facility|FacilityOverview Default 1`] = `
+Array [
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <div
+      className="MuiPaper-root MuiCard-root makeStyles-root-568 MuiPaper-elevation1 MuiPaper-rounded"
+    >
+      <div
+        className="MuiCardContent-root"
+      >
+        <div
+          className="MuiBox-root MuiBox-root-605"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1"
+          >
+            Metal mine
+             (
+            10
+            )
+          </p>
+          <button
+            aria-expanded={false}
+            aria-label="show more"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-572"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label"
+            >
+              <svg
+                aria-hidden="true"
+                className="MuiSvgIcon-root"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+      <div
+        className="MuiCollapse-container MuiCollapse-hidden"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper"
+        >
+          <div
+            className="MuiCollapse-wrapperInner"
+          >
+            <div
+              className="MuiCardContent-root"
+            >
+              <div>
+                Main resource to construct facilities and spaceships
+              </div>
+              <hr
+                className="MuiDivider-root makeStyles-divider-569"
+              />
+              <div>
+                <div
+                  className="makeStyles-costTitle-570"
+                >
+                  Current production
+                </div>
+                <div
+                  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+                >
+                  <table
+                    aria-label="simple table"
+                    className="MuiTable-root"
+                  >
+                    <thead
+                      className="MuiTableHead-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root MuiTableRow-head"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Name
+                        </th>
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+                          scope="col"
+                        >
+                          Amount per hour
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      className="MuiTableBody-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Metal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          778
+                          /h
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <hr
+                className="MuiDivider-root makeStyles-divider-569"
+              />
+              <div>
+                <div
+                  className="makeStyles-costTitle-570"
+                >
+                  Next level cost
+                </div>
+                <div
+                  className="MuiPaper-root MuiTableContainer-root MuiPaper-elevation1 MuiPaper-rounded"
+                >
+                  <table
+                    aria-label="simple table"
+                    className="MuiTable-root"
+                  >
+                    <thead
+                      className="MuiTableHead-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root MuiTableRow-head"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head"
+                          scope="col"
+                        >
+                          Name
+                        </th>
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignRight"
+                          scope="col"
+                        >
+                          Amount
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      className="MuiTableBody-root"
+                    >
+                      <tr
+                        className="MuiTableRow-root"
+                      >
+                        <th
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body"
+                          scope="row"
+                        >
+                          Metal
+                        </th>
+                        <td
+                          aria-sort={null}
+                          className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+                        >
+                          2500
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div
+                  className="MuiBox-root MuiBox-root-690 makeStyles-actions-571"
+                >
+                  <button
+                    className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex={0}
+                    type="button"
+                  >
+                    <span
+                      className="MuiButton-label"
+                    >
+                      Upgrade
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <button
+    className="info__show-button"
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#027ac5",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>,
+]
+`;
