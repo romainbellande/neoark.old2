@@ -40,7 +40,14 @@ const DashboardView = ({ mobileOpen, handleDrawerToggle, routes, resources }: Pr
         <div className={classes.wrapper}>
           <main className={classes.mainContent}>
             <span className={classes.mainBackgroundImage} />
-            {routes.map(({ children }) => children.map(({ id, ...route }) => <Route key={`route-${id}`} {...route} />))}
+            <div className={classes.stars1} />
+            <div className={classes.stars2} />
+            <div className={classes.stars3} />
+            <div className={classes.mainRoute}>
+              {routes.map(({ children }) =>
+                children.map(({ id, ...route }) => <Route key={`route-${id}`} {...route} />),
+              )}
+            </div>
           </main>
         </div>
       </div>
