@@ -11,7 +11,7 @@ Array [
     }
   >
     <header
-      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-290 MuiAppBar-colorPrimary MuiPaper-elevation0"
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-277 MuiAppBar-colorPrimary MuiPaper-elevation0"
     >
       <div
         className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -23,13 +23,13 @@ Array [
             className="MuiGrid-root MuiGrid-item"
           />
           <div
-            className="MuiBox-root MuiBox-root-444 makeStyles-root-442"
+            className="MuiBox-root MuiBox-root-431 makeStyles-root-429"
           >
             <div
-              className="MuiBox-root MuiBox-root-447 makeStyles-root-445"
+              className="MuiBox-root MuiBox-root-434 makeStyles-root-432"
             >
               <div
-                className="makeStyles-label-446"
+                className="makeStyles-label-433"
               >
                 Metal
                 :
@@ -39,10 +39,10 @@ Array [
               </div>
             </div>
             <div
-              className="MuiBox-root MuiBox-root-448 makeStyles-root-445"
+              className="MuiBox-root MuiBox-root-435 makeStyles-root-432"
             >
               <div
-                className="makeStyles-label-446"
+                className="makeStyles-label-433"
               >
                 Crystal
                 :
@@ -52,10 +52,10 @@ Array [
               </div>
             </div>
             <div
-              className="MuiBox-root MuiBox-root-449 makeStyles-root-445"
+              className="MuiBox-root MuiBox-root-436 makeStyles-root-432"
             >
               <div
-                className="makeStyles-label-446"
+                className="makeStyles-label-433"
               >
                 Deuterium
                 :
@@ -66,7 +66,7 @@ Array [
             </div>
           </div>
           <div
-            className="MuiGrid-root makeStyles-endSpacer-297 MuiGrid-item"
+            className="MuiGrid-root makeStyles-endSpacer-284 MuiGrid-item"
           />
         </div>
       </div>
