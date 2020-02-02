@@ -11,13 +11,13 @@ Array [
     }
   >
     <div
-      className="MuiBox-root MuiBox-root-1513 makeStyles-root-1511"
+      className="MuiBox-root MuiBox-root-1497 makeStyles-root-1495"
     >
       <div
-        className="MuiBox-root MuiBox-root-1516 makeStyles-root-1514"
+        className="MuiBox-root MuiBox-root-1500 makeStyles-root-1498"
       >
         <div
-          className="makeStyles-label-1515"
+          className="makeStyles-label-1499"
         >
           Metal
           :
@@ -27,10 +27,10 @@ Array [
         </div>
       </div>
       <div
-        className="MuiBox-root MuiBox-root-1517 makeStyles-root-1514"
+        className="MuiBox-root MuiBox-root-1501 makeStyles-root-1498"
       >
         <div
-          className="makeStyles-label-1515"
+          className="makeStyles-label-1499"
         >
           Crystal
           :
@@ -40,10 +40,10 @@ Array [
         </div>
       </div>
       <div
-        className="MuiBox-root MuiBox-root-1518 makeStyles-root-1514"
+        className="MuiBox-root MuiBox-root-1502 makeStyles-root-1498"
       >
         <div
-          className="makeStyles-label-1515"
+          className="makeStyles-label-1499"
         >
           Deuterium
           :
