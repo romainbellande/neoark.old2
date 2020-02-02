@@ -16,6 +16,9 @@ export interface NavigatorProps extends Omit<DrawerProps, 'classes'> {
   routes: DashboardCategory[];
 }
 
+const ListItemLink = (path: string | string[] | undefined) =>
+  React.forwardRef((props: any) => <Link to={path} {...props} />);
+
 const NavigatorView = ({ routes, ...drawerProps }: NavigatorProps) => {
   const classes = useStyles();
   return (
@@ -36,9 +39,8 @@ const NavigatorView = ({ routes, ...drawerProps }: NavigatorProps) => {
             {children.map(({ id: childId, icon, active, path }) => (
               <ListItem
                 key={childId}
-                button
                 className={clsx(classes.item, active && classes.itemActiveItem)}
-                component={props => <Link to={path} {...props} />}
+                component={ListItemLink(path)}
               >
                 <ListItemIcon className={classes.itemIcon}>{icon}</ListItemIcon>
                 <ListItemText
