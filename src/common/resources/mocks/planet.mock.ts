@@ -18,15 +18,15 @@ const planetMock: Planet = {
   },
   resources: [
     {
-      amount: 1000000,
+      amount: 300,
       code: ResourceCode.METAL,
     },
     {
-      amount: 100,
+      amount: 300,
       code: ResourceCode.CRYSTAL,
     },
     {
-      amount: 10000,
+      amount: 300,
       code: ResourceCode.DEUTERIUM,
     },
   ],
@@ -74,6 +74,7 @@ const planetMock: Planet = {
       list: [],
     },
   ],
+  updatedAt: new Date().getTime(),
 };
 
 export default planetMock;

@@ -36,9 +36,7 @@ interface Props extends Facility {
 }
 
 const FacilityOverviewView: FC<Props> = ({
-  name,
   level,
-  description,
   expanded,
   onExpand,
   cost,

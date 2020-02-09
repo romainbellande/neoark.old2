@@ -38,7 +38,7 @@ const DashboardHeaderView = ({ onDrawerToggle, resources }: Props) => {
                 </IconButton>
               </Hidden>
             </Grid>
-            <ResourceBar items={resources} />
+            <ResourceBar />
             <Grid item className={classes.endSpacer} />
           </Grid>
         </Toolbar>

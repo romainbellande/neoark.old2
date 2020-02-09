@@ -26,7 +26,7 @@ const FacilitiesRouteView = () => {
     <div>
       <Grid container spacing={2}>
         {facilities.map(facilityMock => (
-          <Grid item key={`facility-${facilityMock.name}`}>
+          <Grid item key={`facility-${facilityMock.code}`}>
             <FacilityOverview {...facilityMock} onUpgrade={() => {}} />
           </Grid>
         ))}
