@@ -1,5 +1,7 @@
 import { addDecorator, configure } from '@storybook/react';
 import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 import { withInfo } from '@storybook/addon-info';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
@@ -8,12 +10,31 @@ import requireContext from 'require-context.macro';
 
 import './styles.css';
 import theme from 'src/theme';
+import planetMock from 'src/common/resources/mocks/planet.mock';
+import facilitesMock from 'src/common/resources/mocks/facilities.mock';
+
+const store = createStore(() => ({
+  planets: {
+    planets: [planetMock],
+    currentPlanetIndex: 0,
+    isLoading: false,
+    error: null,
+  },
+  facilities: {
+    facilities: facilitesMock,
+    currentFacilityIndex: 0,
+    isLoading: false,
+    error: null,
+  },
+}));
 
 const withMUI = storyFn => (
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    {storyFn()}
-  </ThemeProvider>
+  <Provider store={store}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      {storyFn()}
+    </ThemeProvider>
+  </Provider>
 );
 
 addDecorator(
