@@ -12,4 +12,5 @@ export default interface Planet {
   temperature: PlanetTemperature;
   queues: PlanetQueue[];
   resources: Resource[];
+  updatedAt: number;
 }

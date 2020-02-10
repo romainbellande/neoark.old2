@@ -27,7 +27,7 @@ const getProgress = (startTimeInMs: number, duration: number): number => {
   return Math.floor((100 * (duration - remainingTime)) / duration);
 };
 
-const FacilityOverviewContainer: FC<Props> = ({ name, level, description, onUpgrade, code, upgradeStartedAt }) => {
+const FacilityOverviewContainer: FC<Props> = ({ level, onUpgrade, code, upgradeStartedAt }) => {
   const cost = getFacilityCost(code, level + 1);
   const duration = getFacilityUpgradeDuration(cost);
   const initialProgress = upgradeStartedAt ? getProgress(upgradeStartedAt, duration) : undefined;
@@ -68,9 +68,7 @@ const FacilityOverviewContainer: FC<Props> = ({ name, level, description, onUpgr
 
   return (
     <FacilityOverviewView
-      name={name}
       level={level}
-      description={description}
       expanded={expanded}
       onExpand={onExpand}
       production={production}
