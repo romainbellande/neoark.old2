@@ -1,6 +1,6 @@
-import FacilityCode from '../facility/facility-code.enum';
+import FacilityCode from '../planet/facility/facility-code.enum';
 import ResourceCode from '../resource/resource-code.enum';
-import FacilityCostItem from '../facility/facility-cost-item.interface';
+import FacilityCostItem from '../planet/facility/facility-cost-item.interface';
 
 interface FacilityCostMatrix {
   [key: string]: (level: number) => FacilityCostItem[];

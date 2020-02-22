@@ -1,5 +1,6 @@
 import Planet from '../planet/planet.interface';
 import ResourceCode from '../resource/resource-code.enum';
+import FacilityCode from '../planet/facility/facility-code.enum';
 
 const planetMock: Planet = {
   name: 'Terra',
@@ -72,6 +73,21 @@ const planetMock: Planet = {
     {
       title: 'Shipyard',
       list: [],
+    },
+  ],
+  facilities: [
+    {
+      level: 1,
+      code: FacilityCode.METAL_MINE,
+      upgradeStartedAt: new Date().getTime() - 120000,
+    },
+    {
+      level: 1,
+      code: FacilityCode.CRYSTAL_MINE,
+    },
+    {
+      level: 1,
+      code: FacilityCode.DEUTERIUM_MINE,
     },
   ],
   updatedAt: new Date().getTime(),

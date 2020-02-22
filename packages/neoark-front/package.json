@@ -1,6 +1,6 @@
 {
-  "name": "neoark",
-  "version": "0.1.1",
+  "name": "neoark-front",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.8.1",

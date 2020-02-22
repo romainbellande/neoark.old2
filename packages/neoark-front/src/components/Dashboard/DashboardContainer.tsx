@@ -5,7 +5,6 @@ import DashboardView from './DashboardView';
 import DashboardCategory from './interfaces/dashboard-category.interface';
 import Resource from 'src/common/resources/resource/resource.interface';
 import { fetchPlanets, selectCurrentPlanet } from 'src/redux/reducers/planets/planets.reducer';
-import { fetchFacilities } from 'src/redux/reducers/planets/facilities.reducer';
 import useThunk from 'src/common/helpers/use-thunk';
 
 interface Props {
@@ -18,7 +17,6 @@ const DashboardContainer: React.FC<Props> = ({ routes, resources }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const handleDrawerToggle = () => setMobileOpen(prevValue => !prevValue);
   useThunk(fetchPlanets);
-  useThunk(fetchFacilities, currentPlanet ? { payload: currentPlanet.id } : undefined);
 
   const viewProps = { mobileOpen, handleDrawerToggle, routes, resources };
 

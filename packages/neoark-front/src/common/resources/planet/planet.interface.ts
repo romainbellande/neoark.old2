@@ -3,6 +3,7 @@ import PlanetCoordinates from './planet-coordinates.interface';
 import PlanetTemperature from './planet-temperature.interface';
 import PlanetQueue from './planet-queue.interface';
 import Resource from '../resource/resource.interface';
+import Facility from './facility/facility.interface';
 
 export default interface Planet {
   id?: string;
@@ -13,4 +14,5 @@ export default interface Planet {
   queues: PlanetQueue[];
   resources: Resource[];
   updatedAt: number;
+  facilities: Facility[];
 }

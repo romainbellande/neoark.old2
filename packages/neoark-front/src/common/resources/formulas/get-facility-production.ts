@@ -1,4 +1,4 @@
-import FacilityCode from '../facility/facility-code.enum';
+import FacilityCode from '../planet/facility/facility-code.enum';
 import ResourceCode from '../resource/resource-code.enum';
 
 interface FacilityCostResourceMatrix {
