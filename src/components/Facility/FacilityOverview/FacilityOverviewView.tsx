@@ -19,10 +19,10 @@ import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
 import useStyles from './FacilityOverview.styles';
-import Facility from 'src/common/resources/facility/facility.interface';
+import Facility from 'src/common/resources/planet/facility/facility.interface';
 import getFacilityProduction from 'src/common/resources/formulas/get-facility-production';
-import FacilityProductionItem from 'src/common/resources/facility/facility-production-item.interface';
-import FacilityCostItem from 'src/common/resources/facility/facility-cost-item.interface';
+import FacilityProductionItem from 'src/common/resources/planet/facility/facility-production-item.interface';
+import FacilityCostItem from 'src/common/resources/planet/facility/facility-cost-item.interface';
 import { translationKeys } from 'src/i18n';
 
 interface Props extends Facility {

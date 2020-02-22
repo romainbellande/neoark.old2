@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
-import FacilityCode from './common/resources/facility/facility-code.enum';
+import FacilityCode from './common/resources/planet/facility/facility-code.enum';
 import ResourceCode from './common/resources/resource/resource-code.enum';
 
 export const translationKeys = {

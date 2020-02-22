@@ -11,18 +11,11 @@ import requireContext from 'require-context.macro';
 import './styles.css';
 import theme from 'src/theme';
 import planetMock from 'src/common/resources/mocks/planet.mock';
-import facilitesMock from 'src/common/resources/mocks/facilities.mock';
 
 const store = createStore(() => ({
   planets: {
     planets: [planetMock],
     currentPlanetIndex: 0,
-    isLoading: false,
-    error: null,
-  },
-  facilities: {
-    facilities: facilitesMock,
-    currentFacilityIndex: 0,
     isLoading: false,
     error: null,
   },

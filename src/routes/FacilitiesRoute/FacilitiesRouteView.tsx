@@ -1,33 +1,24 @@
-import React, { useState, useEffect } from 'react';
-
-import FacilityOverview from 'src/components/Facility/FacilityOverview';
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Grid from '@material-ui/core/Grid';
 
-import Facility from 'src/common/resources/facility/facility.interface';
-import facilityService from 'src/common/services/facility';
+import FacilityOverview from 'src/components/Facility/FacilityOverview';
+import { selectFacilities, scheduleFacilityUprade } from 'src/redux/reducers/planets/planets.reducer';
+import FacilityCode from 'src/common/resources/planet/facility/facility-code.enum';
 
 const FacilitiesRouteView = () => {
-  const [facilities, setFacilities] = useState<Facility[]>([]);
-
-  useEffect(() => {
-    let isSubscribed = true;
-    facilityService.getFacilities('0').then(facilities => {
-      if (isSubscribed) {
-        setFacilities(facilities);
-      }
-    });
-
-    return () => {
-      isSubscribed = false;
-    };
-  }, []);
+  const facilities = useSelector(selectFacilities);
+  const dispatch = useDispatch();
+  const onUpgrade = (facilityCode: FacilityCode) => () => {
+    dispatch(scheduleFacilityUprade(facilityCode));
+  };
 
   return (
     <div>
       <Grid container spacing={2}>
-        {facilities.map(facilityMock => (
-          <Grid item key={`facility-${facilityMock.code}`}>
-            <FacilityOverview {...facilityMock} onUpgrade={() => {}} />
+        {facilities.map(facility => (
+          <Grid item key={`facility-${facility.code}`}>
+            <FacilityOverview {...facility} onUpgrade={onUpgrade(facility.code)} />
           </Grid>
         ))}
       </Grid>

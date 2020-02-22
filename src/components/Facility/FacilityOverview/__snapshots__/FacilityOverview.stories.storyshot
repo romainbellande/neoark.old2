@@ -22,7 +22,7 @@ Array [
           <p
             className="MuiTypography-root MuiTypography-body1"
           >
-            Metal mine
+            Crystal mine
              (
             1
             )
@@ -95,7 +95,7 @@ Array [
               className="MuiCardContent-root"
             >
               <div>
-                Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
+                Crystal is the main resource for electronic components and alloys. It is also crucial in conducting research and construction of buildings, ships and defensive structures. Exceptions are Rocket Launchers, Metal Storages, Combustion Drive, Graviton Technology, and Armour Technology. If there is no crystal mine on a planet, a base amount of 15 units per hour will be produced and in speed universes correspondingly more.
               </div>
               <hr
                 className="MuiDivider-root makeStyles-divider-557"
@@ -146,13 +146,13 @@ Array [
                           className="MuiTableCell-root MuiTableCell-body"
                           scope="row"
                         >
-                          Metal
+                          Crystal
                         </th>
                         <td
                           aria-sort={null}
                           className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
                         >
-                          33
+                          22
                           /h
                         </td>
                       </tr>
@@ -215,7 +215,7 @@ Array [
                           aria-sort={null}
                           className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
                         >
-                          90
+                          76
                         </td>
                       </tr>
                       <tr
@@ -232,7 +232,7 @@ Array [
                           aria-sort={null}
                           className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
                         >
-                          22
+                          38
                         </td>
                       </tr>
                     </tbody>
