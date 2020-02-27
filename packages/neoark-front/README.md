@@ -1,6 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/33ac0f83-c2a7-497e-a7aa-b29d02600999/deploy-status)](https://app.netlify.com/sites/upbeat-bhabha-131a24/deploys)
 ![Build Status](https://github.com/romainbellande/neoark/workflows/Node%20CI/badge.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/romainbellande/neoark/badge.svg?branch=master)](https://coveralls.io/github/romainbellande/neoark?branch=master)
 
 # Neoark
 
