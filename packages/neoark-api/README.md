@@ -1,4 +1,4 @@
-![Build Status](https://github.com/romainbellande/neoark/workflows/Node%20CI/badge.svg?branch=master)
+![Neoark API CI](https://github.com/romainbellande/neoark/workflows/Neoark%20API%20CI/badge.svg)[![codecov](https://codecov.io/gh/romainbellande/neoark/branch/master/graph/badge.svg?flag=neoark-api)](https://codecov.io/gh/romainbellande/neoark)
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>

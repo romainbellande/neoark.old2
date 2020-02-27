@@ -1,9 +1,6 @@
-name: Neoark Front
+name: Neoark Front CI
 
-on:
-  push:
-    paths:
-    - 'packages/neoark-front/**'
+on: [push]
 
 jobs:
   build:
@@ -38,3 +35,11 @@ jobs:
           npx lerna bootstrap
           npx lerna exec --scope neoark-front -- yarn lint
           npx lerna exec --scope neoark-front -- yarn test
+
+      - name: Codecov GitHub Action
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} #required
+          file: ./packages/neoark-front/coverage/clover.xml #optional
+          flags: neoark-front #optional
+          fail_ci_if_error: true #optional (default = false)

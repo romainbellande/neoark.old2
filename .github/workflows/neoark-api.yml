@@ -1,9 +1,6 @@
-name: Neoark API
+name: Neoark API CI
 
-on:
-  push:
-    paths:
-    - 'packages/neoark-api/**'
+on: [push]
 
 jobs:
   build:
@@ -38,3 +35,11 @@ jobs:
           npx lerna bootstrap
           npx lerna exec --scope neoark-api -- yarn lint
           npx lerna exec --scope neoark-api -- yarn test:cov
+
+      - name: Codecov GitHub Action
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} #required
+          file: ./packages/neoark-api/coverage/clover.xml #optional
+          flags: neoark-api #optional
+          fail_ci_if_error: true #optional (default = false)
