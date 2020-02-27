@@ -1,6 +1,9 @@
 name: Neoark API CI
 
-on: [push]
+on:
+  push:
+    paths:
+    - 'packages/neoark-api/**'
 
 jobs:
   build:
