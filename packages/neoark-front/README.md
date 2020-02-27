@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/33ac0f83-c2a7-497e-a7aa-b29d02600999/deploy-status)](https://app.netlify.com/sites/upbeat-bhabha-131a24/deploys)
-![Neoark Front CI](https://github.com/romainbellande/neoark/workflows/Neoark%20Front%20CI/badge.svg)[![codecov](https://codecov.io/gh/romainbellande/neoark/branch/master/graph/badge.svg?flag=neoark-front)](https://codecov.io/gh/romainbellande/neoark)
+![Neoark Front CI](https://github.com/romainbellande/neoark/workflows/Neoark%20Front%20CI/badge.svg)[![codecov](https://codecov.io/gh/romainbellande/neoark/branch/master/graph/badge.svg?flag=neoark_front)](https://codecov.io/gh/romainbellande/neoark)
 
 # Neoark
 
