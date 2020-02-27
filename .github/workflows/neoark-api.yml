@@ -41,5 +41,5 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }} #required
           file: ./packages/neoark-api/coverage/clover.xml #optional
-          flags: neoark-api #optional
+          flags: neoark_api #optional
           fail_ci_if_error: true #optional (default = false)
