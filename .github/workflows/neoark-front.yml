@@ -1,6 +1,9 @@
 name: Neoark Front CI
 
-on: [push]
+on:
+  push:
+    paths:
+    - 'packages/neoark-front/**'
 
 jobs:
   build:
