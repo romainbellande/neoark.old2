@@ -34,7 +34,3 @@ lerna-debug.log*
 !.vscode/extensions.json
 
 .env
-.elk-data
-.pm2
-.mongodb
-.ash_history
