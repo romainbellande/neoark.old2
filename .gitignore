@@ -1,2 +1,7 @@
 node_modules
 *.log
+.elk-data
+.pm2
+.mongodb
+.ash_history
+.env
