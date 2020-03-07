@@ -1,21 +1,12 @@
-import { Model } from 'mongoose';
 import { Injectable } from '@nestjs/common';
-import { InjectModel } from '@nestjs/mongoose';
+import { TypeOrmCrudService } from '@nestjsx/crud-typeorm';
+import { InjectRepository } from '@nestjs/typeorm';
 
-import { Config } from '@/config';
-import { Planet } from './planet.interface';
-import { PlanetDTO } from './planet.dto';
+import { Planet } from './planet.entity';
 
 @Injectable()
-export class PlanetService {
-  constructor(@InjectModel(Config.PLANET_MODEL) private readonly planetModel: Model<Planet>) {}
-
-  async create(createPlanetDTO: PlanetDTO): Promise<Planet> {
-    const createdPlanet = new this.planetModel(createPlanetDTO);
-    return createdPlanet.save();
-  }
-
-  async findAll(): Promise<Planet[]> {
-    return this.planetModel.find().exec();
+export class PlanetService extends TypeOrmCrudService<Planet> {
+  constructor(@InjectRepository(Planet) repo) {
+    super(repo);
   }
 }

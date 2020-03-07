@@ -12,46 +12,18 @@ Array [
   >
     <div>
       <div
-        className="MuiPaper-root makeStyles-paper-1406 MuiPaper-elevation1 MuiPaper-rounded"
+        className="MuiPaper-root makeStyles-paper-1407 MuiPaper-elevation1 MuiPaper-rounded"
       >
         <p
-          className="MuiTypography-root makeStyles-title-1407 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-title-1408 MuiTypography-body1"
         >
           Summary
         </p>
         <div
-          className="MuiPaper-root MuiList-root makeStyles-list-1408 MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
+          className="MuiPaper-root MuiList-root makeStyles-list-1409 MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
         >
           <li
-            className="MuiListItem-root makeStyles-listItem-1411 MuiListItem-gutters"
-            disabled={false}
-          >
-            <div
-              className="MuiListItemText-root"
-            >
-              <span
-                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
-              >
-                <div
-                  className="MuiBox-root MuiBox-root-1492"
-                >
-                  <span
-                    className="makeStyles-label-1409"
-                  >
-                    Diameter
-                    :
-                  </span>
-                  <span
-                    className="makeStyles-value-1410"
-                  >
-                    17.612km (12/235)
-                  </span>
-                </div>
-              </span>
-            </div>
-          </li>
-          <li
-            className="MuiListItem-root makeStyles-listItem-1411 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
             disabled={false}
           >
             <div
@@ -64,22 +36,22 @@ Array [
                   className="MuiBox-root MuiBox-root-1493"
                 >
                   <span
-                    className="makeStyles-label-1409"
+                    className="makeStyles-label-1410"
                   >
-                    Temperature
+                    Diameter
                     :
                   </span>
                   <span
-                    className="makeStyles-value-1410"
+                    className="makeStyles-value-1411"
                   >
-                    12 °C to 35 °C
+                    17.612km (12/235)
                   </span>
                 </div>
               </span>
             </div>
           </li>
           <li
-            className="MuiListItem-root makeStyles-listItem-1411 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
             disabled={false}
           >
             <div
@@ -92,13 +64,41 @@ Array [
                   className="MuiBox-root MuiBox-root-1494"
                 >
                   <span
-                    className="makeStyles-label-1409"
+                    className="makeStyles-label-1410"
+                  >
+                    Temperature
+                    :
+                  </span>
+                  <span
+                    className="makeStyles-value-1411"
+                  >
+                    12 °C to 35 °C
+                  </span>
+                </div>
+              </span>
+            </div>
+          </li>
+          <li
+            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
+            disabled={false}
+          >
+            <div
+              className="MuiListItemText-root"
+            >
+              <span
+                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+              >
+                <div
+                  className="MuiBox-root MuiBox-root-1495"
+                >
+                  <span
+                    className="makeStyles-label-1410"
                   >
                     Coordinates
                     :
                   </span>
                   <span
-                    className="makeStyles-value-1410"
+                    className="makeStyles-value-1411"
                   >
                     [4:13:3]
                   </span>

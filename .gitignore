@@ -5,3 +5,4 @@ node_modules
 .mongodb
 .ash_history
 .env
+.pgdata

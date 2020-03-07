@@ -2,6 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { CrudConfigService } from '@nestjsx/crud';
+import * as fastifyCookie from 'fastify-cookie';
 
 CrudConfigService.load({
   params: {
@@ -28,17 +29,14 @@ async function bootstrap(): Promise<void> {
     new FastifyAdapter({ logger: Config.IS_DEV ? console : false }),
   );
 
+  app.register(fastifyCookie);
   app.enableCors();
-
   app.useGlobalPipes(new ValidationPipe());
-
   app.setGlobalPrefix('v1');
 
   const options = new DocumentBuilder()
-    .setTitle('Product Catalog Backend')
-    .setDescription('Store sodexo products')
+    .setTitle('Neoark API')
     .setVersion('1.0')
-    .addTag('product-catalog-backend')
     .addBearerAuth({ type: 'apiKey', in: 'header', name: 'Authorization' })
     .build();
 

@@ -1,13 +1,12 @@
 import { Module } from '@nestjs/common';
-import { MongooseModule } from '@nestjs/mongoose';
+import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { PlanetController } from './planet.controller';
 import { PlanetService } from './planet.service';
-import { Config } from '@/config';
-import { PlanetSchema } from './planet.schema';
+import { Planet } from './planet.entity';
 
 @Module({
-  imports: [MongooseModule.forFeature([{ name: Config.PLANET_MODEL, schema: PlanetSchema }])],
+  imports: [TypeOrmModule.forFeature([Planet])],
   controllers: [PlanetController],
   providers: [PlanetService],
 })

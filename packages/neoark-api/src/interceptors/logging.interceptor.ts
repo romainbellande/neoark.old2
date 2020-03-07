@@ -69,7 +69,7 @@ export class LoggingInterceptor implements NestInterceptor {
 
         if (Config.ELASTICSEARCH_NODE) {
           this.elasticsearchService.index({
-            index: `core-${getDateFromTimestamp(endAt)}`,
+            index: `neoark-${getDateFromTimestamp(endAt)}`,
             body,
           });
         }

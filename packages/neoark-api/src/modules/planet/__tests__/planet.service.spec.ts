@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { getModelToken } from '@nestjs/mongoose';
+import { getRepositoryToken } from '@nestjs/typeorm';
 
-import { Config } from '@/config';
 import { PlanetService } from '../planet.service';
-import { planetModelMock } from './mocks/planet-model.mock';
+import { Planet } from '../planet.entity';
+import { MockRepository } from '@/helpers/testing/mock-repository';
 
 describe('PlanetService', () => {
   let service: PlanetService;
@@ -13,8 +13,8 @@ describe('PlanetService', () => {
       providers: [
         PlanetService,
         {
-          provide: getModelToken(Config.PLANET_MODEL),
-          useValue: planetModelMock,
+          provide: getRepositoryToken(Planet),
+          useValue: new MockRepository(),
         },
       ],
     }).compile();
