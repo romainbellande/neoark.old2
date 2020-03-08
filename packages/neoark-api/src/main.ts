@@ -34,14 +34,16 @@ async function bootstrap(): Promise<void> {
   app.useGlobalPipes(new ValidationPipe());
   app.setGlobalPrefix('v1');
 
-  const options = new DocumentBuilder()
-    .setTitle('Neoark API')
-    .setVersion('1.0')
-    .addBearerAuth({ type: 'apiKey', in: 'header', name: 'Authorization' })
-    .build();
+  if (Config.IS_DEV) {
+    const swaggerOptions = new DocumentBuilder()
+      .setTitle('Neoark API')
+      .setVersion('1.0')
+      .addBearerAuth({ type: 'apiKey', in: 'header', name: 'Authorization' })
+      .build();
 
-  const document = SwaggerModule.createDocument(app, options);
-  SwaggerModule.setup('api', app, document);
+    const document = SwaggerModule.createDocument(app, swaggerOptions);
+    SwaggerModule.setup('api', app, document);
+  }
 
   await app.listen(Config.PORT, '0.0.0.0');
 }
