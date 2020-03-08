@@ -15,5 +15,9 @@
       "@/*": ["src/*", "dist/*"],
     }
   },
-  "exclude": ["node_modules", "dist"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/helpers/testing/mock-repository.ts"
+  ]
 }
