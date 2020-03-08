@@ -18,6 +18,8 @@ ENV NODE_ENV production
 
 WORKDIR /home/node
 
+RUN npm i -g @nestjs/cli
+
 RUN apk add --no-cache python make g++
 
 COPY package.json yarn.lock ./
