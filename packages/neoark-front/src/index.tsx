@@ -10,6 +10,7 @@ import routing from './routing';
 import databaseInit from './common/database/database-init';
 import './i18n';
 import store from './redux/store';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 LogRocket.init(process.env.REACT_APP_LOG_ROCKET || '');
 
@@ -22,7 +23,11 @@ const render = () => {
 
   ReactDOM.render(
     <Provider store={store}>
-      <App routes={routing} />
+      <Router>
+        <Route path="/">
+          <App routes={routing} />
+        </Route>
+      </Router>
     </Provider>,
     document.getElementById('root'),
   );

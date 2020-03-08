@@ -1,7 +1,7 @@
 import React from 'react';
-import { RouteProps } from 'react-router';
 import HomeIcon from '@material-ui/icons/Home';
 import BusinessIcon from '@material-ui/icons/Business';
+import { LoginCallback } from '@okta/okta-react';
 
 import Dashboard from './components/Dashboard';
 import DashboardCategory from './components/Dashboard/interfaces/dashboard-category.interface';
@@ -9,6 +9,7 @@ import DashboardCategory from './components/Dashboard/interfaces/dashboard-categ
 import LoginRoute from './routes/LoginRoute';
 import PlanetOverviewRoute from './routes/PlanetOverviewRoute';
 import FacilitiesRoute from './routes/FacilitiesRoute';
+import AppRouteProps from './common/interfaces/app-route.interface';
 
 const dashboardRoutes: DashboardCategory[] = [
   {
@@ -31,14 +32,19 @@ const dashboardRoutes: DashboardCategory[] = [
   },
 ];
 
-const routes: RouteProps[] = [
+const routes: AppRouteProps[] = [
   {
     path: '/login',
     component: LoginRoute,
   },
   {
+    path: '/implicit/callback',
+    component: LoginCallback,
+  },
+  {
     path: '/',
     component: () => <Dashboard routes={dashboardRoutes} />,
+    secure: true,
   },
 ];
 

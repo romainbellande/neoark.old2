@@ -20,33 +20,33 @@ Array [
           className="MuiList-root"
         >
           <li
-            className="MuiListItem-root makeStyles-firebase-441 makeStyles-item-439 makeStyles-itemCategory-440 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-firebase makeStyles-item makeStyles-itemCategory MuiListItem-gutters"
             disabled={false}
           >
             Voard
           </li>
           <li
-            className="MuiListItem-root makeStyles-categoryHeader-437 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-categoryHeader MuiListItem-gutters"
             disabled={false}
           >
             <div
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-438 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary MuiTypography-body1"
               >
                 Develop
               </span>
             </div>
           </li>
           <a
-            className="MuiListItem-root makeStyles-item-439 makeStyles-itemActiveItem-442 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item makeStyles-itemActiveItem MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -64,20 +64,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Authentication
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -95,20 +95,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Database
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -130,20 +130,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Storage
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -161,20 +161,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Hosting
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -192,20 +192,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Functions
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -223,37 +223,37 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 ML Kit
               </span>
             </div>
           </a>
           <hr
-            className="MuiDivider-root makeStyles-divider-445"
+            className="MuiDivider-root makeStyles-divider"
           />
           <li
-            className="MuiListItem-root makeStyles-categoryHeader-437 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-categoryHeader MuiListItem-gutters"
             disabled={false}
           >
             <div
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-438 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary MuiTypography-body1"
               >
                 Quality
               </span>
             </div>
           </li>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -277,20 +277,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Analytics
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -308,20 +308,20 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Performance
               </span>
             </div>
           </a>
           <a
-            className="MuiListItem-root makeStyles-item-439 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-item MuiListItem-gutters"
             disabled={false}
             href=""
             onClick={[Function]}
           >
             <div
-              className="MuiListItemIcon-root makeStyles-itemIcon-444"
+              className="MuiListItemIcon-root makeStyles-itemIcon"
             >
               <svg
                 aria-hidden="true"
@@ -339,14 +339,14 @@ Array [
               className="MuiListItemText-root"
             >
               <span
-                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-443 MuiTypography-body1"
+                className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
               >
                 Test Lab
               </span>
             </div>
           </a>
           <hr
-            className="MuiDivider-root makeStyles-divider-445"
+            className="MuiDivider-root makeStyles-divider"
           />
         </ul>
       </div>

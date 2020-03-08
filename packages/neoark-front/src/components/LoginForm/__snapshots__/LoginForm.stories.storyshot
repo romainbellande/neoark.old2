@@ -14,7 +14,7 @@ Array [
       onSubmit={[Function]}
     >
       <div
-        className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        className="MuiPaper-root MuiCard-root makeStyles-card MuiPaper-elevation1 MuiPaper-rounded"
       >
         <div
           className="MuiCardContent-root"
@@ -45,7 +45,7 @@ Array [
                 />
               </div>
               <p
-                className="MuiFormHelperText-root Mui-error"
+                className="MuiFormHelperText-root MuiFormHelperText-error"
               />
             </div>
             <div
@@ -71,7 +71,7 @@ Array [
                 />
               </div>
               <p
-                className="MuiFormHelperText-root Mui-error"
+                className="MuiFormHelperText-root MuiFormHelperText-error"
               />
             </div>
           </div>
@@ -80,7 +80,7 @@ Array [
           className="MuiCardActions-root MuiCardActions-spacing"
         >
           <div
-            className="MuiBox-root MuiBox-root-1045 makeStyles-cardActionsBox-866"
+            className="MuiBox-root MuiBox-root makeStyles-cardActionsBox"
           >
             <button
               className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary"

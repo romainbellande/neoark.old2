@@ -34,4 +34,7 @@ export default makeStyles((theme: Theme) => ({
   endSpacer: {
     flexGrow: 1,
   },
+  logoutButton: {
+    color: theme.palette.common.white,
+  },
 }));

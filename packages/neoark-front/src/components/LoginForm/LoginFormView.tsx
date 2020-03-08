@@ -25,7 +25,7 @@ interface Props {
   initialValues: Credentials;
 }
 
-const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props) => {
+const LoginFormView = ({ onSubmit, validationSchema, initialValues }: Props) => {
   const classes = useStyles();
   const { t } = useTranslation();
 
@@ -39,7 +39,7 @@ const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props)
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <Card>
+      <Card className={classes.card}>
         <CardContent>
           <Grid container spacing={2}>
             <Grid item xs={12}>
@@ -83,4 +83,4 @@ const EquipmentFormView = ({ onSubmit, validationSchema, initialValues }: Props)
   );
 };
 
-export default EquipmentFormView;
+export default LoginFormView;

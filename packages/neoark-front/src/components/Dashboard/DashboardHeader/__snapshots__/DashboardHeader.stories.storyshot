@@ -11,7 +11,7 @@ Array [
     }
   >
     <header
-      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-277 MuiAppBar-colorPrimary MuiPaper-elevation0"
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar MuiAppBar-colorPrimary MuiPaper-elevation0"
     >
       <div
         className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -23,13 +23,13 @@ Array [
             className="MuiGrid-root MuiGrid-item"
           />
           <div
-            className="MuiBox-root MuiBox-root-431 makeStyles-root-429"
+            className="MuiBox-root MuiBox-root makeStyles-root"
           >
             <div
-              className="MuiBox-root MuiBox-root-434 makeStyles-root-432"
+              className="MuiBox-root MuiBox-root makeStyles-root"
             >
               <div
-                className="makeStyles-label-433"
+                className="makeStyles-label"
               >
                 Metal
                 :
@@ -39,10 +39,10 @@ Array [
               </div>
             </div>
             <div
-              className="MuiBox-root MuiBox-root-435 makeStyles-root-432"
+              className="MuiBox-root MuiBox-root makeStyles-root"
             >
               <div
-                className="makeStyles-label-433"
+                className="makeStyles-label"
               >
                 Crystal
                 :
@@ -52,10 +52,10 @@ Array [
               </div>
             </div>
             <div
-              className="MuiBox-root MuiBox-root-436 makeStyles-root-432"
+              className="MuiBox-root MuiBox-root makeStyles-root"
             >
               <div
-                className="makeStyles-label-433"
+                className="makeStyles-label"
               >
                 Deuterium
                 :
@@ -66,8 +66,35 @@ Array [
             </div>
           </div>
           <div
-            className="MuiGrid-root makeStyles-endSpacer-284 MuiGrid-item"
+            className="MuiGrid-root makeStyles-endSpacer MuiGrid-item"
           />
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-logoutButton"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              Logout
+            </span>
+            <span
+              className="MuiTouchRipple-root"
+            />
+          </button>
         </div>
       </div>
     </header>
