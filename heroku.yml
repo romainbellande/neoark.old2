@@ -1,0 +1,9 @@
+setup:
+  addons:
+    - plan: heroku-postgresql:hobby-dev
+      as: database
+    - plan: bonsai:sandbox-6
+      as: elk
+build:
+  docker:
+    web: ./packages/neoark-api/Dockerfile
