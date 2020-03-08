@@ -154,7 +154,7 @@ Array [
                 className="MuiGrid-root makeStyles-endSpacer MuiGrid-item"
               />
               <button
-                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-logoutButton"
+                className="MuiButtonBase-root MuiButton-root MuiButton-text"
                 disabled={false}
                 onBlur={[Function]}
                 onClick={[Function]}
@@ -172,7 +172,7 @@ Array [
                 type="button"
               >
                 <span
-                  className="MuiButton-label"
+                  className="MuiButton-label makeStyles-logoutButton"
                 >
                   Logout
                 </span>

@@ -41,7 +41,7 @@ const DashboardHeaderView = ({ onDrawerToggle, onLogout }: Props) => {
             </Grid>
             <ResourceBar />
             <Grid item className={classes.endSpacer} />
-            <Button className={classes.logoutButton} onClick={onLogout}>
+            <Button classes={{ label: classes.logoutButton }} onClick={onLogout}>
               Logout
             </Button>
           </Grid>
