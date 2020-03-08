@@ -2,8 +2,6 @@ setup:
   addons:
     - plan: heroku-postgresql
       as: database
-    - plan: bonsai
-      as: elk
 build:
   docker:
     web: ./packages/neoark-api/Dockerfile
