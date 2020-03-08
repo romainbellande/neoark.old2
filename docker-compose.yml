@@ -23,7 +23,7 @@ services:
       NODE_ENV: development
       OKTA_TOKEN: $OKTA_TOKEN
       OKTA_HOST: $OKTA_HOST
-      POSTGRES_URL: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}"
+      DATABASE_URL: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}"
     volumes:
       - ./packages/neoark-api:/home/node
     ports:
@@ -37,7 +37,7 @@ services:
   #   environment:
   #     NODE_ENV: production
   #     ELASTICSEARCH_NODE: http://elk:9200
-  #     POSTGRES_URL: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}"
+  #     DATABASE_URL: "postgres://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres/${POSTGRES_DB}"
   #     OKTA_TOKEN: $OKTA_TOKEN
   #     OKTA_HOST: $OKTA_HOST
   #   ports:

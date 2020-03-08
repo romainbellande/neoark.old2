@@ -13,5 +13,5 @@ export class Config {
   static readonly OKTA_TOKEN: string = process.env.OKTA_TOKEN;
   static readonly OKTA_HOST: string = process.env.OKTA_HOST;
 
-  static readonly POSTGRES_URL: string = process.env.POSTGRES_URL;
+  static readonly DATABASE_URL: string = process.env.DATABASE_URL;
 }
