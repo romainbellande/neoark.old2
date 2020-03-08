@@ -14,13 +14,9 @@
 
 FROM node:12-alpine as builder
 
-ENV NODE_ENV production
-
 WORKDIR /home/node
 
-RUN npm i -g @nestjs/cli
-
-RUN apk add --no-cache python make g++
+RUN npm i -g @nestjs/cli && apk add --no-cache python make g++
 
 COPY package.json yarn.lock ./
 
@@ -28,7 +24,7 @@ RUN yarn install --pure-lockfile
 
 COPY . .
 
-RUN yarn build
+RUN yarn build && npm prune --production
 
 # ---
 
