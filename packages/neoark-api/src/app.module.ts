@@ -15,7 +15,7 @@ const providers = [];
 
 const dbParams: TypeOrmModuleOptions = {
   type: 'postgres',
-  url: Config.POSTGRES_URL,
+  url: Config.DATABASE_URL,
   entities: [Planet],
   synchronize: Config.IS_DEV,
   dropSchema: Config.IS_DEV,
