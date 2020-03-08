@@ -9,6 +9,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import useStyles from './DashboardHeader.styles';
 import ResourceBar from 'src/components/ResourceBar';
 import Resource from 'src/common/resources/resource/resource.interface';
+import Button from '@material-ui/core/Button';
 
 interface Props {
   /**
@@ -16,10 +17,10 @@ interface Props {
    */
   onDrawerToggle(): void;
 
-  resources: Resource[];
+  onLogout(): void;
 }
 
-const DashboardHeaderView = ({ onDrawerToggle, resources }: Props) => {
+const DashboardHeaderView = ({ onDrawerToggle, onLogout }: Props) => {
   const classes = useStyles();
   return (
     <React.Fragment>
@@ -40,6 +41,9 @@ const DashboardHeaderView = ({ onDrawerToggle, resources }: Props) => {
             </Grid>
             <ResourceBar />
             <Grid item className={classes.endSpacer} />
+            <Button className={classes.logoutButton} onClick={onLogout}>
+              Logout
+            </Button>
           </Grid>
         </Toolbar>
       </AppBar>

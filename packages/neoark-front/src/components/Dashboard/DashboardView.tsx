@@ -7,17 +7,16 @@ import Navigator from './Navigator';
 import DashboardHeader from './DashboardHeader';
 import useStyles, { drawerWidth } from './Dashboard.styles';
 import DashboardCategory from './interfaces/dashboard-category.interface';
-import Resource from 'src/common/resources/resource/resource.interface';
 
 export interface Props {
   mobileOpen: boolean;
   handleDrawerToggle(): void;
   routes: DashboardCategory[];
-  resources: Resource[];
 }
 
-const DashboardView = ({ mobileOpen, handleDrawerToggle, routes, resources }: Props) => {
+const DashboardView = ({ mobileOpen, handleDrawerToggle, routes }: Props) => {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
       <CssBaseline />
@@ -36,7 +35,7 @@ const DashboardView = ({ mobileOpen, handleDrawerToggle, routes, resources }: Pr
         </Hidden>
       </nav>
       <div className={classes.appContent}>
-        <DashboardHeader onDrawerToggle={handleDrawerToggle} resources={resources} />
+        <DashboardHeader onDrawerToggle={handleDrawerToggle} />
         <div className={classes.wrapper}>
           <main className={classes.mainContent}>
             <span className={classes.mainBackgroundImage} />

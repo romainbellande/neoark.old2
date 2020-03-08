@@ -12,18 +12,18 @@ Array [
   >
     <div>
       <div
-        className="MuiPaper-root makeStyles-paper-1407 MuiPaper-elevation1 MuiPaper-rounded"
+        className="MuiPaper-root makeStyles-paper MuiPaper-elevation1 MuiPaper-rounded"
       >
         <p
-          className="MuiTypography-root makeStyles-title-1408 MuiTypography-body1"
+          className="MuiTypography-root makeStyles-title MuiTypography-body1"
         >
           Summary
         </p>
         <div
-          className="MuiPaper-root MuiList-root makeStyles-list-1409 MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
+          className="MuiPaper-root MuiList-root makeStyles-list MuiList-padding MuiPaper-elevation1 MuiPaper-rounded"
         >
           <li
-            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-listItem MuiListItem-gutters"
             disabled={false}
           >
             <div
@@ -33,16 +33,16 @@ Array [
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
               >
                 <div
-                  className="MuiBox-root MuiBox-root-1493"
+                  className="MuiBox-root MuiBox-root"
                 >
                   <span
-                    className="makeStyles-label-1410"
+                    className="makeStyles-label"
                   >
                     Diameter
                     :
                   </span>
                   <span
-                    className="makeStyles-value-1411"
+                    className="makeStyles-value"
                   >
                     17.612km (12/235)
                   </span>
@@ -51,7 +51,7 @@ Array [
             </div>
           </li>
           <li
-            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-listItem MuiListItem-gutters"
             disabled={false}
           >
             <div
@@ -61,16 +61,16 @@ Array [
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
               >
                 <div
-                  className="MuiBox-root MuiBox-root-1494"
+                  className="MuiBox-root MuiBox-root"
                 >
                   <span
-                    className="makeStyles-label-1410"
+                    className="makeStyles-label"
                   >
                     Temperature
                     :
                   </span>
                   <span
-                    className="makeStyles-value-1411"
+                    className="makeStyles-value"
                   >
                     12 °C to 35 °C
                   </span>
@@ -79,7 +79,7 @@ Array [
             </div>
           </li>
           <li
-            className="MuiListItem-root makeStyles-listItem-1412 MuiListItem-gutters"
+            className="MuiListItem-root makeStyles-listItem MuiListItem-gutters"
             disabled={false}
           >
             <div
@@ -89,16 +89,16 @@ Array [
                 className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
               >
                 <div
-                  className="MuiBox-root MuiBox-root-1495"
+                  className="MuiBox-root MuiBox-root"
                 >
                   <span
-                    className="makeStyles-label-1410"
+                    className="makeStyles-label"
                   >
                     Coordinates
                     :
                   </span>
                   <span
-                    className="makeStyles-value-1411"
+                    className="makeStyles-value"
                   >
                     [4:13:3]
                   </span>

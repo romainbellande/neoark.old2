@@ -11,13 +11,13 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root MuiCard-root makeStyles-root-554 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root MuiCard-root makeStyles-root MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardContent-root makeStyles-cardHeader-563"
+        className="MuiCardContent-root makeStyles-cardHeader"
       >
         <div
-          className="MuiBox-root MuiBox-root-595"
+          className="MuiBox-root MuiBox-root"
         >
           <p
             className="MuiTypography-root MuiTypography-body1"
@@ -30,7 +30,7 @@ Array [
           <button
             aria-expanded={false}
             aria-label="show more"
-            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-560"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -65,11 +65,11 @@ Array [
           </button>
         </div>
         <div
-          className="makeStyles-remainingTime-556"
+          className="makeStyles-remainingTime"
           hidden={true}
         />
         <div
-          className="makeStyles-progress-562"
+          className="makeStyles-progress"
           style={
             Object {
               "width": 0,
@@ -98,11 +98,11 @@ Array [
                 Crystal is the main resource for electronic components and alloys. It is also crucial in conducting research and construction of buildings, ships and defensive structures. Exceptions are Rocket Launchers, Metal Storages, Combustion Drive, Graviton Technology, and Armour Technology. If there is no crystal mine on a planet, a base amount of 15 units per hour will be produced and in speed universes correspondingly more.
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-557"
+                className="MuiDivider-root makeStyles-divider"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-558"
+                  className="makeStyles-costTitle"
                 >
                   Current production
                 </div>
@@ -161,11 +161,11 @@ Array [
                 </div>
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-557"
+                className="MuiDivider-root makeStyles-divider"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-558"
+                  className="makeStyles-costTitle"
                 >
                   Next level cost
                 </div>
@@ -239,7 +239,7 @@ Array [
                   </table>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-680 makeStyles-actions-559"
+                  className="MuiBox-root MuiBox-root makeStyles-actions"
                 >
                   <button
                     className="MuiButtonBase-root MuiButton-root MuiButton-contained"
@@ -310,13 +310,13 @@ Array [
     }
   >
     <div
-      className="MuiPaper-root MuiCard-root makeStyles-root-710 makeStyles-rootInProgress-711 MuiPaper-elevation1 MuiPaper-rounded"
+      className="MuiPaper-root MuiCard-root makeStyles-root makeStyles-rootInProgress MuiPaper-elevation1 MuiPaper-rounded"
     >
       <div
-        className="MuiCardContent-root makeStyles-cardHeader-719"
+        className="MuiCardContent-root makeStyles-cardHeader"
       >
         <div
-          className="MuiBox-root MuiBox-root-751"
+          className="MuiBox-root MuiBox-root"
         >
           <p
             className="MuiTypography-root MuiTypography-body1"
@@ -329,7 +329,7 @@ Array [
           <button
             aria-expanded={false}
             aria-label="show more"
-            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand-716"
+            className="MuiButtonBase-root MuiIconButton-root makeStyles-expand"
             disabled={false}
             onBlur={[Function]}
             onClick={[Function]}
@@ -364,13 +364,13 @@ Array [
           </button>
         </div>
         <div
-          className="makeStyles-remainingTime-712"
+          className="makeStyles-remainingTime"
           hidden={false}
         >
           less than 5 seconds
         </div>
         <div
-          className="makeStyles-progress-718"
+          className="makeStyles-progress"
           style={
             Object {
               "width": "74%",
@@ -399,11 +399,11 @@ Array [
                 Metal is the main resource for conducting research and the construction of buildings, ships, and defensive units. Exceptions are Solar Satellites, Espionage Probes, Energy Technology, Hyperspace Technology, Computer Technology and Graviton Technology. If you do not have a Metal Mine yet, you will be producing 30 units per hour (in normal universes). In speed universes the basic amount is higher, depending on the speed factor.
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-713"
+                className="MuiDivider-root makeStyles-divider"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-714"
+                  className="makeStyles-costTitle"
                 >
                   Current production
                 </div>
@@ -462,11 +462,11 @@ Array [
                 </div>
               </div>
               <hr
-                className="MuiDivider-root makeStyles-divider-713"
+                className="MuiDivider-root makeStyles-divider"
               />
               <div>
                 <div
-                  className="makeStyles-costTitle-714"
+                  className="makeStyles-costTitle"
                 >
                   Next level cost
                 </div>
@@ -540,10 +540,10 @@ Array [
                   </table>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-836 makeStyles-actions-715"
+                  className="MuiBox-root MuiBox-root makeStyles-actions"
                 >
                   <button
-                    className="MuiButtonBase-root MuiButton-root MuiButton-contained Mui-disabled Mui-disabled"
+                    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-disabled MuiButtonBase-disabled"
                     disabled={true}
                     onBlur={[Function]}
                     onClick={[Function]}

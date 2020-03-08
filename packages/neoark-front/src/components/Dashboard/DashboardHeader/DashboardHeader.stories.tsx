@@ -1,11 +1,12 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 
-import planetMock from 'src/common/resources/mocks/planet.mock';
-import DashboardHeader from './DashboardHeaderView';
+import DashboardHeader from './DashboardHeaderContainer';
 
 export default { title: 'Dashboard|DashboardHeader', component: DashboardHeader };
 
-export const Default = () => (
-  <DashboardHeader onDrawerToggle={action('onDrawerToggle')} resources={planetMock.resources} />
-);
+const authService = {
+  logout: () => {},
+};
+
+export const Default = () => <DashboardHeader onDrawerToggle={action('onDrawerToggle')} authService={authService} />;

@@ -11,13 +11,13 @@ Array [
     }
   >
     <div
-      className="makeStyles-root-2"
+      className="makeStyles-root"
     >
       <nav
-        className="makeStyles-drawer-3"
+        className="makeStyles-drawer"
       >
         <div
-          className="PrivateHiddenCss-xsDown-15"
+          className="PrivateHiddenCss-xsDown"
         >
           <div
             className="MuiDrawer-root MuiDrawer-docked"
@@ -34,33 +34,33 @@ Array [
                 className="MuiList-root"
               >
                 <li
-                  className="MuiListItem-root makeStyles-firebase-32 makeStyles-item-30 makeStyles-itemCategory-31 MuiListItem-gutters"
+                  className="MuiListItem-root makeStyles-firebase makeStyles-item makeStyles-itemCategory MuiListItem-gutters"
                   disabled={false}
                 >
                   Voard
                 </li>
                 <li
-                  className="MuiListItem-root makeStyles-categoryHeader-28 MuiListItem-gutters"
+                  className="MuiListItem-root makeStyles-categoryHeader MuiListItem-gutters"
                   disabled={false}
                 >
                   <div
                     className="MuiListItemText-root"
                   >
                     <span
-                      className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary-29 MuiTypography-body1"
+                      className="MuiTypography-root MuiListItemText-primary makeStyles-categoryHeaderPrimary MuiTypography-body1"
                     >
                       Main
                     </span>
                   </div>
                 </li>
                 <a
-                  className="MuiListItem-root makeStyles-item-30 MuiListItem-gutters"
+                  className="MuiListItem-root makeStyles-item MuiListItem-gutters"
                   disabled={false}
                   href="/"
                   onClick={[Function]}
                 >
                   <div
-                    className="MuiListItemIcon-root makeStyles-itemIcon-35"
+                    className="MuiListItemIcon-root makeStyles-itemIcon"
                   >
                     <svg
                       aria-hidden="true"
@@ -78,14 +78,14 @@ Array [
                     className="MuiListItemText-root"
                   >
                     <span
-                      className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary-34 MuiTypography-body1"
+                      className="MuiTypography-root MuiListItemText-primary makeStyles-itemPrimary MuiTypography-body1"
                     >
                       Home
                     </span>
                   </div>
                 </a>
                 <hr
-                  className="MuiDivider-root makeStyles-divider-36"
+                  className="MuiDivider-root makeStyles-divider"
                 />
               </ul>
             </div>
@@ -93,10 +93,10 @@ Array [
         </div>
       </nav>
       <div
-        className="makeStyles-appContent-4"
+        className="makeStyles-appContent"
       >
         <header
-          className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar-145 MuiAppBar-colorPrimary MuiPaper-elevation0"
+          className="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky makeStyles-appBar MuiAppBar-colorPrimary MuiPaper-elevation0"
         >
           <div
             className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
@@ -108,13 +108,13 @@ Array [
                 className="MuiGrid-root MuiGrid-item"
               />
               <div
-                className="MuiBox-root MuiBox-root-271 makeStyles-root-269"
+                className="MuiBox-root MuiBox-root makeStyles-root"
               >
                 <div
-                  className="MuiBox-root MuiBox-root-274 makeStyles-root-272"
+                  className="MuiBox-root MuiBox-root makeStyles-root"
                 >
                   <div
-                    className="makeStyles-label-273"
+                    className="makeStyles-label"
                   >
                     Metal
                     :
@@ -124,10 +124,10 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-275 makeStyles-root-272"
+                  className="MuiBox-root MuiBox-root makeStyles-root"
                 >
                   <div
-                    className="makeStyles-label-273"
+                    className="makeStyles-label"
                   >
                     Crystal
                     :
@@ -137,10 +137,10 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiBox-root MuiBox-root-276 makeStyles-root-272"
+                  className="MuiBox-root MuiBox-root makeStyles-root"
                 >
                   <div
-                    className="makeStyles-label-273"
+                    className="makeStyles-label"
                   >
                     Deuterium
                     :
@@ -151,31 +151,58 @@ Array [
                 </div>
               </div>
               <div
-                className="MuiGrid-root makeStyles-endSpacer-152 MuiGrid-item"
+                className="MuiGrid-root makeStyles-endSpacer MuiGrid-item"
               />
+              <button
+                className="MuiButtonBase-root MuiButton-root MuiButton-text makeStyles-logoutButton"
+                disabled={false}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onDragLeave={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                tabIndex={0}
+                type="button"
+              >
+                <span
+                  className="MuiButton-label"
+                >
+                  Logout
+                </span>
+                <span
+                  className="MuiTouchRipple-root"
+                />
+              </button>
             </div>
           </div>
         </header>
         <div
-          className="makeStyles-wrapper-7"
+          className="makeStyles-wrapper"
         >
           <main
-            className="makeStyles-mainContent-5"
+            className="makeStyles-mainContent"
           >
             <span
-              className="makeStyles-mainBackgroundImage-6"
+              className="makeStyles-mainBackgroundImage"
             />
             <div
-              className="makeStyles-stars1-9"
+              className="makeStyles-stars1"
             />
             <div
-              className="makeStyles-stars2-10"
+              className="makeStyles-stars2"
             />
             <div
-              className="makeStyles-stars3-11"
+              className="makeStyles-stars3"
             />
             <div
-              className="makeStyles-mainRoute-12"
+              className="makeStyles-mainRoute"
             >
               <div>
                 Hello

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { ThemeProvider } from '@material-ui/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
+import { Switch, Route, Router, withRouter, RouteComponentProps } from 'react-router-dom';
 import { Security, SecureRoute } from '@okta/okta-react';
 
 import './App.css';
@@ -10,11 +10,17 @@ import config from 'src/common/config';
 import AppRouteProps from 'src/common/interfaces/app-route.interface';
 import { oktaSignIn } from 'src/common/okta';
 
+const onAuthRequired = (history: any) => () => {
+  // Redirect to the /login page that has a CustomLoginComponent
+  // This example is specific to React-Router
+  history.push('/login');
+};
+
 interface Props {
   routes: AppRouteProps[];
 }
 
-const App: React.FC<Props> = ({ routes }) => {
+const App: React.FC<Props & RouteComponentProps> = ({ routes, history }) => {
   useEffect(() => {
     if (oktaSignIn.hasTokensInUrl()) {
       oktaSignIn.authClient.token.parseFromUrl().then(
@@ -56,8 +62,8 @@ const App: React.FC<Props> = ({ routes }) => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
-        <Security {...config.okta}>
+      <Router history={history}>
+        <Security {...config.okta} onAuthRequired={onAuthRequired(history)}>
           <Switch>
             {routes.map(({ secure, ...route }, index) =>
               secure ? <SecureRoute key={`route-${index}`} {...route} /> : <Route key={`route-${index}`} {...route} />,
@@ -69,4 +75,4 @@ const App: React.FC<Props> = ({ routes }) => {
   );
 };
 
-export default App;
+export default withRouter(App);
