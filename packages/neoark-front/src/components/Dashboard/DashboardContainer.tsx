@@ -16,7 +16,8 @@ const DashboardContainer: React.FC<Props> = ({ routes }) => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const handleDrawerToggle = () => setMobileOpen(prevValue => !prevValue);
   useThunk(fetchPlanets);
-  const ws = new WebSocket(`ws://${config.api.host}/ws`);
+  const wsPrefix = window.location.protocol === 'https:' ? 'wss' : 'ws';
+  const ws = new WebSocket(`${wsPrefix}://${config.api.host}/ws`);
 
   ws.onopen = () => {
     ws.send(
