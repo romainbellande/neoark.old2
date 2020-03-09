@@ -25,24 +25,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * okta signin ([#49](https://github.com/romainbellande/neoark/issues/49)) ([881a6d3](https://github.com/romainbellande/neoark/commit/881a6d32d38081bcda8e59bdf5107d714e358770))
 * planet overview ([#13](https://github.com/romainbellande/neoark/issues/13)) ([05525da](https://github.com/romainbellande/neoark/commit/05525da62a39146a3143841e91958c1a20352082)), closes [#8](https://github.com/romainbellande/neoark/issues/8)
 * redux ([#34](https://github.com/romainbellande/neoark/issues/34)) ([62e84fc](https://github.com/romainbellande/neoark/commit/62e84fc7a084dfc255b87afda412f998b5835a5d)), closes [#6](https://github.com/romainbellande/neoark/issues/6)
-
-
-
-
-
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
-### 0.1.1 (2020-01-04)
-
-
-### Features
-
-* implement basic resource display ([a9292b9](https://github.com/romainbellande/neoark/commit/a9292b99f65f9e028b296766109c1982ea181469)), closes [#7](https://github.com/romainbellande/neoark/issues/7)
-* planet overview ([#13](https://github.com/romainbellande/neoark/issues/13)) ([cae3604](https://github.com/romainbellande/neoark/commit/cae3604ec6346e8af238d1e84ca945cfa7086784)), closes [#8](https://github.com/romainbellande/neoark/issues/8)
-
-
-### Bug Fixes
-
-* **ci:** build status badge ([#4](https://github.com/romainbellande/neoark/issues/4)) ([ce913de](https://github.com/romainbellande/neoark/commit/ce913de7c91bf64315d58d61d42b211663d70bb8)), closes [#3](https://github.com/romainbellande/neoark/issues/3)
