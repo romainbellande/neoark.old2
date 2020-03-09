@@ -6,6 +6,12 @@ const okta = {
   postLogoutRedirectUri: `${window.location.origin}/login`,
 };
 
+const api = {
+  host: process.env.REACT_APP_API_HOST || 'localhost:8000',
+  version: process.env.REACT_APP_API_VERSION || 'v1',
+};
+
 export default {
   okta,
+  api,
 };
