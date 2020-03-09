@@ -3,6 +3,7 @@ import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { CrudConfigService } from '@nestjsx/crud';
 import * as fastifyCookie from 'fastify-cookie';
+import { WsAdapter } from '@nestjs/platform-ws';
 
 CrudConfigService.load({
   params: {
@@ -33,6 +34,7 @@ async function bootstrap(): Promise<void> {
   app.enableCors();
   app.useGlobalPipes(new ValidationPipe());
   app.setGlobalPrefix('v1');
+  app.useWebSocketAdapter(new WsAdapter(app));
 
   if (Config.IS_DEV) {
     const swaggerOptions = new DocumentBuilder()

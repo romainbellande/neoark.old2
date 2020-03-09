@@ -9,9 +9,10 @@ import { CommandsModule } from './commands/commands.module';
 import { LoggingInterceptor } from './interceptors/logging.interceptor';
 import { PlanetModule } from './modules/planet/planet.module';
 import { Planet } from './modules/planet/planet.entity';
+import { UserGateway } from './gateways/user.gateway';
 
 const dynamicImports: any[] = [];
-const providers = [];
+const dynamicProviders = [];
 
 const dbParams: TypeOrmModuleOptions = {
   type: 'postgres',
@@ -28,7 +29,7 @@ if (Config.ELASTICSEARCH_NODE) {
     }),
   );
 
-  providers.push({
+  dynamicProviders.push({
     provide: APP_INTERCEPTOR,
     useClass: LoggingInterceptor,
   });
@@ -37,7 +38,7 @@ if (Config.ELASTICSEARCH_NODE) {
 @Module({
   imports: [TypeOrmModule.forRoot(dbParams), ...dynamicImports, ConsoleModule, CommandsModule, PlanetModule],
   controllers: [],
-  providers,
+  providers: [...dynamicProviders, UserGateway],
   exports: [CommandsModule],
 })
 export class AppModule {}
