@@ -1,0 +1,36 @@
+{
+  "name": "@neoark/interfaces",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Naimor <rombelsecure@gmail.com>",
+  "homepage": "https://github.com/romainbellande/neoark#readme",
+  "license": "ISC",
+  "main": "lib/interfaces.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": "git+https://personal_access_token:99349e2581e771386c4e86ca370e712e7662aad9@github.com/romainbellande/neoark.git",
+  "scripts": {
+    "test": "echo \"No tests implemented. Skipping.\" && exit 0",
+    "lint": "eslint --ext ts ./src",
+    "build": "rimraf ./lib && tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/romainbellande/neoark/issues"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
+}

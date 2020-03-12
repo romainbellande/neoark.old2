@@ -1,4 +1,4 @@
-name: Neoark API CI
+name: Libraries CI
 
 on: [push]
 
@@ -8,6 +8,7 @@ jobs:
 
     strategy:
       matrix:
+        lib: [interfaces]
         node-version: [10.x, 12.x]
 
     steps:
@@ -32,14 +33,6 @@ jobs:
       - name: yarn install, lint, and test
         run: |
           yarn --pure-lockfile
-          npx lerna bootstrap --scope neoark-api
-          npx lerna exec --scope neoark-api -- yarn lint
-          npx lerna exec --scope neoark-api -- yarn test:cov
-
-      - name: Codecov GitHub Action
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }} #required
-          file: ./packages/neoark-api/coverage/clover.xml #optional
-          flags: neoark_api #optional
-          fail_ci_if_error: true #optional (default = false)
+          npx lerna bootstrap --scope @neoark/${{ matrix.lib }}
+          npx lerna exec --scope @neoark/${{ matrix.lib }} -- yarn lint
+          npx lerna exec --scope @neoark/${{ matrix.lib }} -- yarn test
