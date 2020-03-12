@@ -32,7 +32,7 @@ jobs:
       - name: yarn install, lint, and test
         run: |
           yarn --pure-lockfile
-          npx lerna bootstrap
+          npx lerna bootstrap --scope neoark-front
           npx lerna exec --scope neoark-front -- yarn lint
           npx lerna exec --scope neoark-front -- yarn test
 

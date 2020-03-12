@@ -6,3 +6,4 @@ node_modules
 .ash_history
 .env
 .pgdata
+.npmrc

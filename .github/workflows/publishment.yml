@@ -1,6 +1,9 @@
-name: Neoark API CI
+name: Publishment CI
 
-on: [push]
+on:
+  push:
+    tags:
+    - '*'
 
 jobs:
   build:
@@ -8,7 +11,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [10.x]
 
     steps:
       - uses: actions/checkout@v1
@@ -17,6 +20,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@neoark'
 
       - name: Get yarn cache
         id: yarn-cache
@@ -31,15 +36,9 @@ jobs:
 
       - name: yarn install, lint, and test
         run: |
+          NPM_TOKEN=${NPM_TOKEN} ./scripts/init-npmrc.sh
           yarn --pure-lockfile
-          npx lerna bootstrap --scope neoark-api
-          npx lerna exec --scope neoark-api -- yarn lint
-          npx lerna exec --scope neoark-api -- yarn test:cov
-
-      - name: Codecov GitHub Action
-        uses: codecov/codecov-action@v1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }} #required
-          file: ./packages/neoark-api/coverage/clover.xml #optional
-          flags: neoark_api #optional
-          fail_ci_if_error: true #optional (default = false)
+          npx lerna bootstrap
+          npx lerna publish from-package --no-git-reset --yes
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
