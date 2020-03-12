@@ -17,7 +17,8 @@
   "scripts": {
     "test": "echo \"No tests implemented. Skipping.\" && exit 0",
     "lint": "eslint --ext ts ./src",
-    "build": "rimraf ./lib && tsc"
+    "build": "rimraf ./lib && tsc",
+    "prepublishOnly": "yarn build"
   },
   "bugs": {
     "url": "https://github.com/romainbellande/neoark/issues"
