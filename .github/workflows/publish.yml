@@ -1,4 +1,4 @@
-name: Publishment CI
+name: Publish CI
 
 on:
   push:
@@ -20,8 +20,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@neoark'
 
       - name: Get yarn cache
         id: yarn-cache
@@ -36,9 +34,8 @@ jobs:
 
       - name: yarn install, lint, and test
         run: |
-          NPM_TOKEN=${NPM_TOKEN} ./scripts/init-npmrc.sh
           yarn --pure-lockfile
           npx lerna bootstrap
           npx lerna publish from-package --no-git-reset --yes
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
