@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        lib: [interfaces]
+        lib: [core]
         node-version: [10.x, 12.x]
 
     steps:
