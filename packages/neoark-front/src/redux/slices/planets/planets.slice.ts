@@ -143,4 +143,4 @@ export const selectProductionMatrix = createSelector(selectFacilities, facilitie
   );
 });
 
-export default planetsSlice.reducer;
+export default planetsSlice;

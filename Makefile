@@ -1,3 +1,6 @@
+up:
+	./scripts/increase-max-memory.sh && docker-compose up
+
 install:
 	yarn
 

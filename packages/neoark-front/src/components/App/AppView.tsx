@@ -9,6 +9,11 @@ import theme from 'src/theme';
 import config from 'src/common/config';
 import AppRouteProps from 'src/common/interfaces/app-route.interface';
 import { oktaSignIn } from 'src/common/okta';
+import AccessToken from 'src/common/interfaces/access-token.interface';
+import { useDispatch, useSelector } from 'react-redux';
+import { setAccessToken } from 'src/redux/slices/auth/auth.slice';
+import { wsConnect, sendUserInfo } from 'src/redux/middlewares/ws.middleware';
+import { selectConnected } from 'src/redux/slices/ws/ws.slice';
 
 const onAuthRequired = (history: any) => () => {
   // Redirect to the /login page that has a CustomLoginComponent
@@ -21,6 +26,9 @@ interface Props {
 }
 
 const App: React.FC<Props & RouteComponentProps> = ({ routes, history }) => {
+  const dispatch = useDispatch();
+  const wsConnected = useSelector(selectConnected);
+
   useEffect(() => {
     if (oktaSignIn.hasTokensInUrl()) {
       oktaSignIn.authClient.token.parseFromUrl().then(
@@ -38,8 +46,7 @@ const App: React.FC<Props & RouteComponentProps> = ({ routes, history }) => {
 
           // Say hello to the person who just signed in:
           oktaSignIn.authClient.tokenManager.get('idToken').then(function(idToken: any) {
-            console.log('Hello, ' + idToken.claims.email);
-            console.log('idToken', idToken);
+            console.info('Hello, ' + idToken.claims.email);
           });
         },
         function error(err: any) {
@@ -51,13 +58,24 @@ const App: React.FC<Props & RouteComponentProps> = ({ routes, history }) => {
       oktaSignIn.authClient.session.get().then(function(res: any) {
         // Session exists, show logged in state.
         if (res.status === 'ACTIVE') {
-          console.log('Welcome back, ' + res.login);
-          console.log('res', res);
+          console.info('Welcome back, ' + res.login);
           return;
         }
       });
     }
-  }, []);
+
+    oktaSignIn.authClient.tokenManager.get('accessToken').then((payload: AccessToken) => {
+      const { host } = config.api;
+      dispatch(setAccessToken(payload));
+      dispatch(wsConnect({ host, token: payload.accessToken }));
+    });
+  }, [dispatch]);
+
+  useEffect(() => {
+    if (wsConnected) {
+      dispatch(sendUserInfo({ property: 'mydata' }));
+    }
+  }, [dispatch, wsConnected]);
 
   return (
     <ThemeProvider theme={theme}>

@@ -1,3 +1,4 @@
+import './helpers/apm';
 import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
@@ -23,13 +24,12 @@ CrudConfigService.load({
 import { Config } from './config';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
+import { Logger } from './services/logger.service';
 
 async function bootstrap(): Promise<void> {
-  const app = await NestFactory.create<NestFastifyApplication>(
-    AppModule,
-    new FastifyAdapter({ logger: Config.IS_DEV ? console : false }),
-  );
+  const app = await NestFactory.create<NestFastifyApplication>(AppModule, new FastifyAdapter({ logger: true }));
 
+  app.useLogger(new Logger('neoark-api', true));
   app.register(fastifyCookie);
   app.enableCors();
   app.useGlobalPipes(new ValidationPipe());

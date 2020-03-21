@@ -9,7 +9,7 @@ import getFacilityCost from 'src/common/resources/formulas/get-facility-cost';
 import FacilityProductionItem from 'src/common/resources/planet/facility/facility-production-item.interface';
 import getFacilityProduction from 'src/common/resources/formulas/get-facility-production';
 import ResourceCode from 'src/common/resources/resource/resource-code.enum';
-import { upgradeFacility } from 'src/redux/reducers/planets/planets.reducer';
+import { upgradeFacility } from 'src/redux/slices/planets/planets.slice';
 
 interface Props extends Facility {
   onUpgrade(): void;
