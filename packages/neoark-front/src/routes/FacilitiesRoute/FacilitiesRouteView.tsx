@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Grid from '@material-ui/core/Grid';
 
 import FacilityOverview from 'src/components/Facility/FacilityOverview';
-import { selectFacilities, scheduleFacilityUprade } from 'src/redux/reducers/planets/planets.reducer';
+import { selectFacilities, scheduleFacilityUprade } from 'src/redux/slices/planets/planets.slice';
 import FacilityCode from 'src/common/resources/planet/facility/facility-code.enum';
 
 const FacilitiesRouteView = () => {

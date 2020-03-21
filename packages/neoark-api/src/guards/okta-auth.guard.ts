@@ -18,7 +18,6 @@ export class OktaAuthGuard implements CanActivate {
   validateRequest(request: FastifyRequest) {
     const authHeader = request.headers.authorization || '';
     const match = authHeader.match(/Bearer (.+)/);
-    console.log('match', match);
 
     if (!match) {
       return false;
@@ -29,12 +28,10 @@ export class OktaAuthGuard implements CanActivate {
     return oktaJwtVerifier
       .verifyAccessToken(accessToken, `api://default`)
       .then(jwt => {
-        console.log('jwt', jwt);
         request['jwt'] = jwt;
         return true;
       })
       .catch(err => {
-        console.log('err', err);
         return false;
       });
   }

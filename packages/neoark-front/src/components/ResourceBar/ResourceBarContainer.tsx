@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import ResourceBarView from './ResourceBarView';
 import getResourceValue from 'src/common/resources/formulas/get-resource-value';
 import Resource from 'src/common/resources/resource/resource.interface';
-import { selectCurrentPlanet, selectProductionMatrix } from 'src/redux/reducers/planets/planets.reducer';
+import { selectCurrentPlanet, selectProductionMatrix } from 'src/redux/slices/planets/planets.slice';
 import ResourceEnum from 'src/common/resources/resource/resource-code.enum';
 
 const ResourceBarContainer: FC = () => {

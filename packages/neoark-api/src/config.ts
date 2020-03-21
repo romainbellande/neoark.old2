@@ -14,4 +14,12 @@ export class Config {
   static readonly OKTA_HOST: string = process.env.OKTA_HOST;
 
   static readonly DATABASE_URL: string = process.env.DATABASE_URL;
+
+  static readonly APM_SERVICE_URL: string = process.env.APM_SERVICE_URL;
+  static readonly APM_SERVICE_NAME: string = process.env.APM_SERVICE_NAME;
+  static readonly APM_SECRET_TOKEN: string = process.env.APM_SECRET_TOKEN;
+
+  static apmEnabled(): boolean {
+    return !!Config.APM_SERVICE_URL;
+  }
 }

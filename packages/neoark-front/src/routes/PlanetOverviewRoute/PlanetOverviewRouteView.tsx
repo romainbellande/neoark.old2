@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import { useOktaAuth } from '@okta/okta-react';
 
 import PlanetOverview from 'src/components/Planet/PlanetOverview';
-import { selectCurrentPlanet } from 'src/redux/reducers/planets/planets.reducer';
+import { selectCurrentPlanet } from 'src/redux/slices/planets/planets.slice';
 
 const PlanetOverviewRouteView = () => {
   const { authState, authService } = useOktaAuth();
