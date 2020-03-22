@@ -3,6 +3,7 @@ import { createAction, Middleware } from '@reduxjs/toolkit';
 import { AppDispatch } from '../store';
 import { RootState } from '../root-reducer';
 import { wsConnected, wsDisconnected } from '../slices/ws/ws.slice';
+import { selectAccessToken } from '../slices/auth/auth.slice';
 
 interface WsConnectPayload {
   host: string;
@@ -18,6 +19,11 @@ enum WsEvent {
   User = 'user',
 }
 
+interface SendMessagePayload {
+  event: WsEvent;
+  message: any;
+}
+
 const messageMatrix = {
   [WsEvent.User]: receiveUserInfo,
 };
@@ -30,9 +36,8 @@ const wsMiddleware: Function = (): Middleware<AppDispatch, RootState> => {
     store.dispatch(wsConnected());
   };
 
-  const onClose = (store: any) => () => {
-    console.error('on socket closed');
-    store.dispatch(wsDisconnected());
+  const onClose = (store: any) => ({ code, reason }: any) => {
+    store.dispatch(wsDisconnected({ code, reason }));
   };
 
   const onMessage = (store: any) => (messageEvent: any) => {
@@ -44,8 +49,26 @@ const wsMiddleware: Function = (): Middleware<AppDispatch, RootState> => {
     }
   };
 
+  const createSender = (store: any) => ({ event, message }: SendMessagePayload) => {
+    const accessToken = selectAccessToken(store.getState());
+
+    socket?.send(
+      JSON.stringify({
+        event,
+        data: {
+          message,
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+          },
+        },
+      }),
+    );
+  };
+
   // the middleware part of this function
   return store => next => action => {
+    const sender = createSender(store);
+
     switch (action.type) {
       case wsConnect.toString():
         if (socket === null) {
@@ -72,9 +95,9 @@ const wsMiddleware: Function = (): Middleware<AppDispatch, RootState> => {
         break;
 
       case sendUserInfo.toString():
-        const data = action.payload;
-        console.log('sending a message', data);
-        socket?.send(JSON.stringify({ event: WsEvent.User, data }));
+        const message = action.payload;
+        console.log('sending a message', message);
+        sender({ event: WsEvent.User, message });
         break;
 
       default:

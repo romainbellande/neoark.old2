@@ -1,12 +1,8 @@
 import * as OktaJwtVerifier from '@okta/jwt-verifier';
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Observable } from 'rxjs';
-import { Config } from '@/config';
 import { FastifyRequest } from 'fastify';
-
-const oktaJwtVerifier = new OktaJwtVerifier({
-  issuer: `https://${Config.OKTA_HOST}/oauth2/default`, // required
-});
+import { oktaJwtVerifier } from '@/helpers/okta-jwt-verifier';
 
 @Injectable()
 export class OktaAuthGuard implements CanActivate {

@@ -20,6 +20,7 @@ export const { setAccessToken } = authSlice.actions;
 
 // Selectors
 export const selectAuthState = (state: RootState) => state.auth;
+export const selectAccessToken = createSelector(selectAuthState, state => state.accessToken?.accessToken);
 
 // Slice
 
