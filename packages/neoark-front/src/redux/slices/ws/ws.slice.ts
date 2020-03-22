@@ -15,7 +15,8 @@ const wsSlice = createSlice({
     wsConnected(state) {
       state.connected = true;
     },
-    wsDisconnected(state) {
+    wsDisconnected(state, { payload }) {
+      console.error(`ws disconnected`, payload);
       state.connected = false;
     },
   },
