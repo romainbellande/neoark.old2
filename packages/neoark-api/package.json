@@ -52,7 +52,7 @@
     "elastic-apm-node": "^3.5.0",
     "fastify-cookie": "^3.6.0",
     "fastify-swagger": "^2.5.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mongodb": "^3.5.3",
     "mongoose": "^5.9.2",
     "nestjs-console": "^2.0.1",
